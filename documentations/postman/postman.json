@@ -1,0 +1,2704 @@
+{
+  "info": {
+    "_postman_id": "906512d3-c179-4046-878f-be848036e76c",
+    "name": "MySofie - Mario Guedes",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "34606bb7-2f36-46cf-92c4-3986678a6a67",
+      "name": "01 - Empresa",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "b677c292-abec-4785-bcb3-3b29e5a4e8e0",
+          "name": "Criar empresa",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"name\": \"cielo\",\r\n        \"full_name\": \"Cielo S.A.\",\r\n        \"cnpj\": \"01027058000191\",\r\n        \"active\": true,\r\n        \"card_bookmark_color\": \"#ff0002\"\r\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/company/cielo",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "company",
+                "cielo"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "81215538-c164-40d9-bf13-c19cb5166b71",
+          "name": "Editar empresa",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"active\": true, \"card_bookmark_color\" : \"#ff0002\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/company/caras",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "company",
+                "caras"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "784df572-af40-460c-9189-11acb3061e8f",
+          "name": "Arquivar empresa",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/company/caras",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "company",
+                "caras"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "3a256a97-fd23-4675-9985-c8c325e25e50",
+          "name": "Definir Logotipo da Empresa",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "file",
+              "file": {
+                "src": null
+              }
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/company/caras/logo",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "company",
+                "caras",
+                "logo"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "22af3fa1-89e8-4d80-83f4-27be5eff1398",
+          "name": "Recuperar Logotipo da Empresa",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/company/caras/logo",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "company",
+                "caras",
+                "logo"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "2be1a8cf-dd2d-4e7f-8369-1906065af064",
+          "name": "Apaga o Logotipo da empresa",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/company/caras/logo",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "company",
+                "caras",
+                "logo"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "08561287-4efb-4617-8abf-1583eaad62b3",
+          "name": "Alterar Logotipo da Empresa",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "file",
+              "file": {
+                "src": null
+              }
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/company/caras/logo",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "company",
+                "caras",
+                "logo"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "fc095f72-1a33-4766-bb3f-f81923abb84f",
+          "name": "Listar empresas SOFIER",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/company/?fields=name,cnpj,full_name",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "company",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "fields",
+                  "value": "name,cnpj,full_name",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "80521438-d1d9-450c-8d16-78266f0f33ef",
+          "name": "Listar empresas EMPRESA",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "exemplo@caras.com.br",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/company/caras?fields=name,cnpj,full_name",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "company",
+                "caras"
+              ],
+              "query": [
+                {
+                  "key": "fields",
+                  "value": "name,cnpj,full_name",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "3e22442c-36f1-49ed-a7b7-a60a25b0f0c3",
+          "name": "Listar empresas PLATAFORMA",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/company/?fields=name,cnpj,full_name",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "company",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "fields",
+                  "value": "name,cnpj,full_name",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "42f259ae-59ed-4144-8e7a-2e8a01011cfe",
+      "name": "02 - Usuário PLATAFORMA & EMPRESA",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "967a0917-9876-45ab-a695-9764410e03f7",
+          "name": "Criar usuário nível Plataforma",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"thiago.filadelfo@maysofie.com\",\r\n    \"full_name\": \"Thiago Filadelfo\",\r\n    \"short_name\": \"Thiago\",\r\n    \"cpf\": \"32379386889\", \r\n    \"level\": \"PLATFORM\",\r\n    \"company\": null,\r\n    \"password\": \"MTIzNDU2Nzg=\"\r\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/user/thiago.filadelfo@maysofie.com",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "user",
+                "thiago.filadelfo@maysofie.com"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "e3e3631f-ff75-4916-9ea8-096617da18b2",
+          "name": "Editar usuário nível Plataforma",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"short_name\": \"Thiago\"\r\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/user/thiago.filadelfo@maysofie.com",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "user",
+                "thiago.filadelfo@maysofie.com"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "9bc4e8d2-6db6-432c-a26a-b860fc98bc96",
+          "name": "Arquivar usuário nível Plataforma",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/user/thiago.filadelfo@maysofie.com",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "user",
+                "thiago.filadelfo@maysofie.com"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "a6591c64-def8-42b4-8580-2c4847b9f8d2",
+          "name": "Criar usuário nível Empresa",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"exemplo@caras.com.br\",\r\n    \"full_name\": \"Usuário Exemplo\",\r\n    \"short_name\": \"Exemplo\",\r\n    \"cpf\": \"19678335832\", \r\n    \"level\": \"COMPANY\",\r\n    \"company\": \"caras\",\r\n    \"password\": \"MTIzNDU2Nzg=\"\r\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/user/exemplo@caras.com.br",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "user",
+                "exemplo@caras.com.br"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "e64d29d2-d644-4847-ae6f-7eb7f8d0adbc",
+          "name": "Listar usuários",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/user/?fields=name,cpf,level,company",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "user",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "fields",
+                  "value": "name,cpf,level,company",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "203caed8-6328-479e-a106-6d39a631a01d",
+      "name": "03 - Usuário SOFIER",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "5176ec57-14fb-419e-b278-9d0c9a8f247f",
+          "name": "Cria Sofier",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "User-Agent",
+                "value": "MySofie/1.0.0 (Android; API23/6.0.1) Sofier/1"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"19678335832\",\n  \"password\": \"MTIzNDU2Nzg=\",  \n  \"full_name\": \"José Mario Silva Guedes\",\n  \"email\": \"jmarioguedes@gmail.com\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/sofier/19678335832",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "sofier",
+                "19678335832"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "1a5ee8cf-d8d6-439b-9d4e-f3b7240bb699",
+          "name": "Recupera Sofier",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "User-Agent",
+                "value": "MySofie/1.0.0 (Android; API23/6.0.1) Sofier/1"
+              },
+              {
+                "key": "If-None-Match",
+                "value": "\"cfbd907822e7acaccbd1a14809626208f9bbbb00\""
+              }
+            ],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/sofier/19678335832",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "sofier",
+                "19678335832"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "f9671ba2-0d66-4a82-844d-88b31014dfa4",
+          "name": "Editar Sofier",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"short_name\": \"Mario Guedes\",\n\t\"birthday\": \"1987-08-08T10:00:00-0300\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/sofier/19678335832",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "sofier",
+                "19678335832"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "2486380b-c739-470e-907d-1db00bb803f7",
+          "name": "Definir Foto",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "file",
+              "file": {
+                "src": null
+              }
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/sofier/19678335832/picture",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "sofier",
+                "19678335832",
+                "picture"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "e847a116-d9dc-4f38-b1cd-2fe939ce5eb5",
+          "name": "Limpar Foto",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/sofier/19678335832/picture",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "sofier",
+                "19678335832",
+                "picture"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "b1355b5f-a1aa-48df-bf93-a200d6280109",
+          "name": "Recuperar Foto",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/sofier/19678335832/picture?w=120&h=120",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "sofier",
+                "19678335832",
+                "picture"
+              ],
+              "query": [
+                {
+                  "key": "w",
+                  "value": "120",
+                  "equals": true
+                },
+                {
+                  "key": "h",
+                  "value": "120",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "e5ef74cd-8df1-4c5f-a1b6-36a59a01a59d",
+      "name": "04 - Cartão de Desafio",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "20c12aa9-b932-4bcb-9b09-af25d5a6bf4c",
+          "name": "Recuperação de uma capa de Card",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/card/7762c314-dcfa-4fc4-82f3-caa749004f6c/cover",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "card",
+                "7762c314-dcfa-4fc4-82f3-caa749004f6c",
+                "cover"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "695840a7-05fa-439a-9ab1-0b43e9c2aafc",
+          "name": "Definição de uma capa",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "file",
+              "file": {
+                "src": null
+              }
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/card/7762c314-dcfa-4fc4-82f3-caa749004f6c/cover",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "card",
+                "7762c314-dcfa-4fc4-82f3-caa749004f6c",
+                "cover"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "bb6e70cd-340d-49ac-b8e3-256bcbd2dada",
+          "name": "Exclusão de uma capa",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/card/7762c314-dcfa-4fc4-82f3-caa749004f6c/cover",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "card",
+                "7762c314-dcfa-4fc4-82f3-caa749004f6c",
+                "cover"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "3cfdb500-eb19-40cc-ae22-ea2bfe1aa73c",
+      "name": "05 - Challenge",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "058a09da-2cec-4521-b207-3d0edbb53250",
+          "name": "Resumo do Challenge",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "If-None-Match",
+                "value": "\"cbc7d7464e2f1386e712cab48a018aaa395c4fb6\"",
+                "disabled": true
+              },
+              {
+                "key": "X-MYSOFIE-ACCESS-TOKEN",
+                "value": "096af752-8f54-11e8-867b-847bebf97c32"
+              }
+            ],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/sofier/me/challenge/summary",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "sofier",
+                "me",
+                "challenge",
+                "summary"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "b9341b32-ab99-48c2-9006-f91698976e3b",
+          "name": "Cards por Expertise",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "If-None-Match",
+                "value": "\"fac87859dc64db79a611d626b6c7f5767266d73f\"",
+                "disabled": true
+              }
+            ],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/sofier/me/challenge/cards/?expertise=SALE",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "sofier",
+                "me",
+                "challenge",
+                "cards",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "expertise",
+                  "value": "SALE",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "194aab76-36d5-4fcf-b0aa-c26b4dc21106",
+          "name": "Recuperação da capa de um Card",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/sofier/me/challenge/cards/7f5fc937-6e23-43f5-9d1d-2da67d63c933/cover",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "sofier",
+                "me",
+                "challenge",
+                "cards",
+                "7f5fc937-6e23-43f5-9d1d-2da67d63c933",
+                "cover"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "e237d87a-a237-4c9b-9996-c650edd1c56c",
+          "name": "Tomar conhecimento de um Card",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/sofier/me/challenge/cards/7f5fc937-6e23-43f5-9d1d-2da67d63c933",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "sofier",
+                "me",
+                "challenge",
+                "cards",
+                "7f5fc937-6e23-43f5-9d1d-2da67d63c933"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "6041a44f-4ada-471d-b8d7-5a7af2aed1ba",
+          "name": "Recuperação dos detalhes de um Card",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/sofier/me/challenge/cards/e4d0cf46-a241-4573-98db-49270c27b6ef/detail",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "sofier",
+                "me",
+                "challenge",
+                "cards",
+                "e4d0cf46-a241-4573-98db-49270c27b6ef",
+                "detail"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "90585cae-2778-472d-a680-bd1db59bb839",
+      "name": "06 - Treinamento",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "76c82ec4-1558-4319-93bb-1e719019a27d",
+          "name": "Criar Treinamento CARAS",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"company\": \"caras\",\n\t\"training\": \"\",\n\t\"expertise\": \"SALE\",\n\t\"title\": \"Revista CARAS Impressa - 12 meses\",\n\t\"presentation\": \"Assinatura anual com 52 edições. \\n\\n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare vulputate ipsum sed dapibus. Quisque quis risus eu magna tincidunt suscipit quis ac ipsum. Maecenas.\",\n\t\"offers\": [\n\t  {\"title\": \"À vista\", \"price\": 530.40, \"reward\": 120, \"fee\": 150, \"points\": 0, \"days_for_reward\": 30, \"quotes\": {\"qtt\": 1, \"value\": 530.40}},\n\t  {\"title\": \"2x\", \"price\": 530.40, \"reward\": 120, \"fee\": 150, \"points\": 0, \"days_for_reward\": 30, \"quotes\": {\"qtt\": 2, \"value\": 265.20, \"with_rate\": false}},\n\t  {\"title\": \"3x\", \"price\": 530.40, \"reward\": 120, \"fee\": 150, \"points\": 0, \"days_for_reward\": 30, \"quotes\": {\"qtt\": 3, \"value\": 176.80, \"with_rate\": false}},\n\t  {\"title\": \"4x\", \"price\": 530.40, \"reward\": 120, \"fee\": 150, \"points\": 0, \"days_for_reward\": 30, \"quotes\": {\"qtt\": 4, \"value\": 132.60, \"with_rate\": false}},\n\t  {\"title\": \"5x\", \"price\": 530.40, \"reward\": 120, \"fee\": 150, \"points\": 0, \"days_for_reward\": 30, \"quotes\": {\"qtt\": 5, \"value\": 106.08, \"with_rate\": false}},\n\t  {\"title\": \"6x\", \"price\": 530.40, \"reward\": 120, \"fee\": 150, \"points\": 0, \"days_for_reward\": 30, \"quotes\": {\"qtt\": 6, \"value\": 88.40, \"with_rate\": false}},\n\t  {\"title\": \"7x\", \"price\": 530.40, \"reward\": 120, \"fee\": 150, \"points\": 0, \"days_for_reward\": 30, \"quotes\": {\"qtt\": 7, \"value\": 75.77, \"with_rate\": false}},\n\t  {\"title\": \"8x\", \"price\": 530.40, \"reward\": 120, \"fee\": 150, \"points\": 0, \"days_for_reward\": 30, \"quotes\": {\"qtt\": 8, \"value\": 66.30, \"with_rate\": false}}\n\t]\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/card/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "card",
+                ""
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "a1adaf85-6d1f-4969-87ce-af0054c2f502",
+      "name": "07 - Micro Contrato",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "4c95cc2c-834c-400d-bc32-670bacb71528",
+          "name": "Recuperar Micro Contrato",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/microcontract/revista?fields=name,code,active",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "microcontract",
+                "revista"
+              ],
+              "query": [
+                {
+                  "key": "fields",
+                  "value": "name,code,active",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "ae125ab0-d181-4c6e-a111-3357f84d1a85",
+          "name": "Criar Micro Contrato",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"active\": true, \n\t\"code\": \"print('OLÁ MUNDO')\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/microcontract/revista",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "microcontract",
+                "revista"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "ea6b22cb-deb6-4972-977c-77e37ea3b403",
+      "name": "08 - Consumidor Final",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "ce787aa6-ee5e-4ef8-8860-8063062a9c16",
+          "name": "Criar um Consumidor",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{ \"full_name\": \"Fulano de Tal\", \"kind_of_person\": \"F\", \"main_phone\": \"11912341234\", \"main_email\": \"maluf@masfaz.com.br\"}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/consumer/50398898014",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "consumer",
+                "50398898014"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "c7397ef1-42d2-4cf2-8ebc-d9a3a62c17c2",
+          "name": "Edição de Consumidor",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"name\": \"50398898014\",  \"full_name\": \"Fulano de Tal\", \"kind_of_person\": \"F\", \"main_phone\": \"11912341234\", \"main_email\": \"maluf@masfaz.com.br\"}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/consumer/50398898014",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "consumer",
+                "50398898014"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "7f5641eb-7e5f-40f5-ae15-eca8c1feb3a9",
+          "name": "Recuperar um Consumidor",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/consumer/50398898014",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "consumer",
+                "50398898014"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "63224955-850d-42a6-bd74-03eab667066f",
+          "name": "Deletar um Consumidor",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "123456",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "DELETE",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/consumer/50398898014",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "consumer",
+                "50398898014"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "de0df4bc-945b-4232-b6da-80271abfea44",
+          "name": "Listagem de Consumidor",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "username",
+                  "value": "jmarioguedes@gmail.com",
+                  "type": "string"
+                },
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "saveHelperData",
+                  "type": "any"
+                },
+                {
+                  "key": "showPassword",
+                  "value": false,
+                  "type": "boolean"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/consumer/?fields=name",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "consumer",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "fields",
+                  "value": "name",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "058af842-a2e6-4d52-b76a-392a55d73377",
+      "name": "09 - Cadastro de Endereço",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "6faf8795-ba41-455f-a8ff-a791bebf6902",
+          "name": "Cadastrar um Endereço",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"address\": {\r\n        \"zip_code\": \"06454050\", \r\n        \"type\": \"Alameda\", \r\n        \"full_name\": \"Grajaú\",\r\n        \"number\": \"248\", \r\n        \"complement\": \"Apto 93\", \r\n        \"reference\": \"Em frente ao Cartório\", \r\n        \"district\": \"ALPHAVILLE INDUSTRIAL\", \r\n        \"city\": \"BARUERI\", \r\n        \"state\": \"SP\", \r\n        \"country\": \"BR\"    \r\n    \t\r\n    }\r\n}\r\n"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/consumer/50398898014/address?address_type=RESIDENTIAL",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "consumer",
+                "50398898014",
+                "address"
+              ],
+              "query": [
+                {
+                  "key": "address_type",
+                  "value": "RESIDENTIAL",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "_postman_id": "fea7372c-8c14-4847-b4fb-32bf933b43af",
+      "name": "10 - Processo de Transação",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "6dddf611-3baf-4732-b12b-8b4907188dd1",
+          "name": "01 - Criar Transação",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "id": "4779cadb-78af-4cd9-aba5-8c3a8bacd8d4",
+                "type": "text/javascript",
+                "exec": [
+                  "var jsonData = JSON.parse(responseBody);",
+                  "postman.setEnvironmentVariable(\"transaction\", jsonData.transaction);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/transaction?card=7f5fc937-6e23-43f5-9d1d-2da67d63c933",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "transaction"
+              ],
+              "query": [
+                {
+                  "key": "card",
+                  "value": "7f5fc937-6e23-43f5-9d1d-2da67d63c933",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "88efe031-dbe9-4b91-a3e5-073978749e77",
+          "name": "02 - Definir Condições de Pagamento",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\"payment_condition\": \"À vista!\"}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/transaction/{{transaction}}?contract_clause=set_payment_condition",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "transaction",
+                "{{transaction}}"
+              ],
+              "query": [
+                {
+                  "key": "contract_clause",
+                  "value": "set_payment_condition",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "94d4e805-b5af-4c91-80da-144ce1e44b62",
+          "name": "03 - Definir Consumidor",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"consumer\": \"50398898014\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/transaction/{{transaction}}?contract_clause=set_consumer",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "transaction",
+                "{{transaction}}"
+              ],
+              "query": [
+                {
+                  "key": "contract_clause",
+                  "value": "set_consumer",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "4eacac8d-bdde-4cca-9ff8-bdb8ea8e02da",
+          "name": "04 - Definição do Endereço de Entrega",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n\t\"address\": \"139e7ff116350cfd8251fbfc71210657\"\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/transaction/{{transaction}}?contract_clause=set_address",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "transaction",
+                "{{transaction}}"
+              ],
+              "query": [
+                {
+                  "key": "contract_clause",
+                  "value": "set_address",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "3eba287e-3151-42de-9cf5-d800622830d1",
+          "name": "05 - Envio do Link de Pagamento",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"via\": {\n        \"sms\": true, \n        \"email\": true \n    }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/transaction/{{transaction}}?contract_clause=send_payment_link",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "transaction",
+                "{{transaction}}"
+              ],
+              "query": [
+                {
+                  "key": "contract_clause",
+                  "value": "send_payment_link",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "e146ac2c-050a-4a0a-a6b1-a308803b1443",
+          "name": "06 - Dados do Cartão de Crédito",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "number",
+                  "value": "0000000000000001",
+                  "sessionValue": "0000000000000001",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "holder",
+                  "value": "FULANO DE TAL",
+                  "sessionValue": "FULANO DE TAL",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "expiration",
+                  "value": "12/2018",
+                  "sessionValue": "12/2018",
+                  "description": "",
+                  "type": "text"
+                },
+                {
+                  "key": "cvv",
+                  "value": "123",
+                  "sessionValue": "123",
+                  "description": "",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "http://localhost:64000/api/v1/pay/{{transaction}}",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "pay",
+                "{{transaction}}"
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "auth": {
+        "type": "basic",
+        "basic": [
+          {
+            "key": "password",
+            "value": "12345678",
+            "type": "string"
+          },
+          {
+            "key": "username",
+            "value": "19678335832",
+            "type": "string"
+          }
+        ]
+      },
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "f20aa1e2-e468-445b-abaf-72f9e6234c91",
+            "type": "text/javascript",
+            "exec": [
+              ""
+            ]
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "id": "76e9b571-87df-42f1-af5e-b420a9a3c396",
+            "type": "text/javascript",
+            "exec": [
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_postman_id": "83a29b31-3a10-4c28-a51d-d32daf442011",
+      "name": "11 - Extrato de Movimentações",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "4e738ebe-711e-4539-b664-1e104eec2b38",
+          "name": "01 - Balanço",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "40da2b52-403a-49f4-80ac-48930686e23d",
+          "name": "02 - Resgatar Saldo",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ],
+      "auth": {
+        "type": "basic",
+        "basic": [
+          {
+            "key": "password",
+            "value": "12345678",
+            "type": "string"
+          },
+          {
+            "key": "username",
+            "value": "19678335832",
+            "type": "string"
+          }
+        ]
+      },
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "d88bc7dd-8e3c-4639-bff5-84ed40b0d0d9",
+            "type": "text/javascript",
+            "exec": [
+              ""
+            ]
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "id": "07a1ac3a-d4f7-4b46-a624-78dec3add74b",
+            "type": "text/javascript",
+            "exec": [
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "_postman_id": "c39683d6-708c-472e-9f9c-7df7d2d394b8",
+      "name": "99 - Diversos",
+      "description": "",
+      "item": [
+        {
+          "_postman_id": "422c6802-8eca-409f-b18c-b86b6e234488",
+          "name": "Listagem de Bancos",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "12345678",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "19678335832",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [],
+            "body": {},
+            "url": {
+              "raw": "http://localhost:64000/api/v1/bank",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "64000",
+              "path": [
+                "api",
+                "v1",
+                "bank"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "e264f6ae-6acc-4bda-90f5-94ced7f0bc9d",
+          "name": "Encurtador de Link",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n   \"longDynamicLink\": \"https://mysofie.page.link/?link=http://google.com.br\"\r\n}"
+            },
+            "url": {
+              "raw": "https://firebasedynamiclinks.googleapis.com/v1/shortLinks?key=AIzaSyBI7uhs8Y877CGg5fRKpx8U8fM5jWahz_g",
+              "protocol": "https",
+              "host": [
+                "firebasedynamiclinks",
+                "googleapis",
+                "com"
+              ],
+              "path": [
+                "v1",
+                "shortLinks"
+              ],
+              "query": [
+                {
+                  "key": "key",
+                  "value": "AIzaSyBI7uhs8Y877CGg5fRKpx8U8fM5jWahz_g",
+                  "equals": true
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "425f1cd5-e71c-4910-8a82-a981c624a7f2",
+          "name": "Enviar SMS",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "phslfyotpr",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "g4.web",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"sendSmsRequest\": {\r\n            \"from\": \"Assistente Sofie\",\r\n            \"to\": \"5511972145422\",\r\n            \"msg\": \"Pagamento seguro: http://google.com.br\",\r\n            \"id\": \"thiago\"\r\n        }\r\n    }"
+            },
+            "url": {
+              "raw": "https://api-rest.zenvia.com/services/send-sms",
+              "protocol": "https",
+              "host": [
+                "api-rest",
+                "zenvia",
+                "com"
+              ],
+              "path": [
+                "services",
+                "send-sms"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "_postman_id": "d64943f0-e7f7-4159-a918-a40d5604e9d7",
+          "name": "Consultar SMS",
+          "request": {
+            "auth": {
+              "type": "basic",
+              "basic": [
+                {
+                  "key": "password",
+                  "value": "phslfyotpr",
+                  "type": "string"
+                },
+                {
+                  "key": "username",
+                  "value": "g4.web",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "body": {},
+            "url": {
+              "raw": "https://api-rest.zenvia.com/services/get-sms-status/e4d0cf46-a241-4573-98db-49270c27b6ef",
+              "protocol": "https",
+              "host": [
+                "api-rest",
+                "zenvia",
+                "com"
+              ],
+              "path": [
+                "services",
+                "get-sms-status",
+                "e4d0cf46-a241-4573-98db-49270c27b6ef"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

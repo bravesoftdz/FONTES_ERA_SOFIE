@@ -1,0 +1,3092 @@
+openapi: "3.0.1"
+
+info:
+  title: Sofie
+  description: Descreve a API Rest da plataforma Sofie.
+  version: "1"
+  contact:
+    name: Thiago Filadelfo
+    email: thiago.filadelfo@mysofie.com
+
+servers:
+  - url: https://p2hn9po6p1.execute-api.us-east-1.amazonaws.com/{basePath}
+    description: Servidor de Produção na fase *alpha* da plataforma Sofie
+    variables:
+      basePath:
+        default: alpha
+
+paths:
+
+  /micro_task/execution/{task_id}/start/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa em execução
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    post:
+      tags:
+        - Micro Tarefa - Execução
+      summary: Registra o início de executação de uma tarefa por parte do sofier
+      operationId: Iniciar
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa em execução
+          schema:
+            type: string
+            format: uuid
+        - name: sofier
+          in: query
+          required: true
+          description: ID do sofier que está solicitando a execução
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Indica que a inicialização foi aceita recebendo-se os dados necessários para a execução da tarefa, em especial o fluxo
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TaskStart'
+
+  /micro_task/execution/{task_id}/finish/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa em execução
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    post:
+      tags:
+        - Micro Tarefa - Execução
+      summary: Registra a finalização da execução de uma tarefa
+      operationId: Finalizar
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa em execução
+          schema:
+            type: string
+            format: uuid
+        - name: sofier
+          in: query
+          required: true
+          description: ID do sofier que está solicitando a execução
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TaskFinish'
+      responses:
+        '200':
+          description: Indica que os dados recebidos são válidos e que a tarefa foi finalizada com sucesso.
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    enum:
+                      - SUCCESS
+
+  /micro_task/radar/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Micro Tarefa - Execução
+      summary: Listagem de desafios presenciais de acordo com a localização do sofier
+      operationId: radar
+      parameters:
+        - name: sofier
+          in: query
+          required: false
+          description: ID do sofier que invocou a API
+          schema:
+            type: string
+            format: email
+        - name: lat
+          in: query
+          required: true
+          description: Latitude
+          schema:
+            type: number
+        - name: lng
+          in: query
+          required: true
+          description: Longitude
+          schema:
+            type: number
+        - name: radius
+          in: query
+          required: true
+          description: Perímetro em quilômetros
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Listagem dos estabelecimentos presentes no perímetro informado
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    description: Listagem dos estabelecimentos
+                    items:
+                      type: object
+                      description: Coordenadas geográficas de um estabelecimento
+                      properties:
+                        lat:
+                          type: number
+                          description: Latitude
+                        lng:
+                          type: number
+                          description: Longitude
+
+  /micro_task/reserve/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+
+    post:
+      tags:
+        - Micro Tarefa - Execução
+      summary: Utilizado para recuperar a tarefa mais próxima e, concomitantemente, aceitar ou rejeitar uma tarefa
+      operationId: Reserva de tarefa
+      parameters:
+        - name: sofier
+          in: query
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+            format: email
+        - name: lat
+          in: query
+          required: true
+          description: Latitude
+          schema:
+            type: number
+        - name: lng
+          in: query
+          required: true
+          description: Longitude
+          schema:
+            type: number
+        - name: radius      
+          in: query
+          required: true
+          description: Perímetro
+          schema:
+            type: integer
+        - name: task_id
+          in: query
+          required: false
+          description: ID da tarefa que será aceita ou rejeitada
+          schema: 
+            type: string
+            format: uuid
+        - name: action
+          in: query
+          required: false
+          description: Ação que será aplicada ao ID da tarefa passada previamente
+          schema: 
+            $ref: '#/components/schemas/ActionTaskReserve'
+      responses:
+        '200':
+          description: Próxima tarefa geograficamente mais próxima ao sofier
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  task:
+                    type: object
+                    description: Informações sobre a tarefa 
+                    properties:
+                      task_id:
+                        type: string
+                        format: uuid
+                        description: ID da tarefa
+                      task_name:
+                        type: string
+                        description: Nome da tarefa
+                        example: PAT
+                      category:
+                        $ref: '#/components/schemas/MicroTaskCategory'
+                      type:
+                        $ref: '#/components/schemas/MicroTaskType'
+                      reward:
+                        type: number
+                        description: Valor da recompensa pela execução da tarefa
+                        example: 10
+                      name:
+                        type: string
+                        description: Nome do estabelecimento
+                        example: MARIA LUCIA ALVES DE MOURA
+                      address:
+                        type: string
+                        description: Endereço do estabelecimento
+                        example: Rua Laís de Sá, 156 - Munhoz Júnior, Osasco
+                      lat:
+                        type: number
+                        description: Latitude
+                        example: -23.4990361
+                      lng:
+                        type: number
+                        description: Longitude
+                        example: -46.8106139
+                      distance:
+                        type: number
+                        description: Distância, em quilômetros, do estabelecimento em relação às coordenadas do sofier
+                        example: 3.1251                        
+                      ttl:
+                        type: integer
+                        description: Tempo, em milisegundos, que a tarefa estará disponível ao sofier solicitante
+                        example: 240000
+                  nearest:
+                    type: integer
+                    description: Quantidade de tarefas disponíveis no perímetro informado
+                  task_name:
+                    type: string
+                    description: Nome da tarefa 
+
+  /micro_task/in_person/dashboard/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Micro Tarefa - Dashboard
+      summary: Recupera um dashboard com a quantidade de tarefas presenciais por estado
+      operationId: Dashboard
+      responses:
+        '200':
+          description: Dashboard das micro tarefas totalizados por estado
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  state:
+                    type: object
+                    description: Totalização das micro tarefas por "estado"
+                    properties:
+                      NEW:
+                        type: integer
+                        description: Quantidade de tarefas no estado "NOVO"
+                      FINISHED:
+                        type: integer
+                        description: Quantidade de tarefas no estado "FINALIZADO"
+                      EXECUTED:
+                        type: integer
+                        description: Quantidade de tarefas no estado "EXECUTADO"
+                      REJECTED:
+                        type: integer
+                        description: Quantidade de tarefas no estado "REJEITADO"
+                  status:
+                    type: object
+                    description: Totalização das micro tarefas por "situação"
+                    properties:
+                      WAITING:
+                        type: integer
+                        description: Quantidade de tarefas na situação "AGUARDANDO"
+                      FAILURE:
+                        type: integer
+                        description: Quantidade de tarefas finalizadas e "REPROVADAS"
+                      SUCCESS:
+                        type: integer
+                        description: Quantidade de tarefas finalizadas e "APROVADAS"
+                      EXECUTED:
+                        type: integer
+                        description: Quantidade de tarefas na situação "EXECUTADA"
+                      REJECTED:  
+                        type: integer
+                        description: Quantidade de tarefas na situação "REJEITADA"
+                  life:
+                    type: object
+                    description: Totalização de tarefas acatadas pelos sofiers
+                    properties:
+                      RESERVED:
+                        type: integer
+                        description: Quantidade de tarefas "RESERVADAS" pelos sofiers
+                      EXECUTION:
+                        type: integer
+                        description: Quantidade de tarefas "EM EXECUÇÃO" pelos sofiers
+
+  /micro_task/in_person/markers/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Micro Tarefa - Dashboard
+      summary: Recupera as coordenadas geográficas de todas as tarefas
+      operationId: Mapa
+      responses:
+        '200':
+          description: Listagem das coordenadas geográficas de todas as tarefas
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  markers:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        task_id:
+                          type: string
+                          format: uuid
+                          description: ID da tarefa
+                        state:
+                          $ref: '#/components/schemas/MicroTaskState'
+                        status:
+                          $ref: '#/components/schemas/MicroTaskStatus'
+                        name:
+                          type: string
+                          description: Nome do local (sofie_place)
+                        address:
+                          type: string
+                          description: Endereço postal formatado
+                        point:
+                          type: array
+                          items:
+                            type: number
+
+  /micro_task/management/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Micro Tarefa - Gestão
+      summary: Listagem de todas as micro tarefas de acordo com o filtro aplicado
+      operationId: Listagem
+      parameters:
+        - name: company
+          in: query
+          required: false
+          description: Nome da empresa para efeitos de filtro
+          schema:
+            type: string
+        - name: state
+          in: query
+          required: false
+          description: Nome do "ESTADO" de micro tarefa para efeitos de filtro
+          schema:
+            $ref: '#/components/schemas/MicroTaskState'
+        - name: limit
+          in: query
+          required: false
+          description: Limite de quantidade de registros para efeitos de paginação
+          schema:
+            type: integer
+        - name: last_task_id
+          in: query
+          required: false
+          description: ID da última micro tarefa retornada para efeitos de paginação
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Listagem de micro tarefas de acordo com os filtros aplicados
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/MicroTaskSummary'
+                  last_key:
+                    type: string
+                    description: ID da última tarefa listada para efeitos de paginação
+
+  /micro_task/management/{task_id}/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa
+          schema:
+            type: string
+            format: uuid
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Micro Tarefa - Gestão
+      summary: Recupera um item de micro tarefa específico
+      operationId: Item
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Retorno dos dados de uma micro tarefa específica
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MicroTaskItem'
+
+  /micro_task/management/{task_id}/execution/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa
+          schema:
+            type: string
+            format: uuid
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Micro Tarefa - Gestão
+      summary: Recupera a listagem de execuções de uma determinada micro tarefa
+      operationId: Listagem de execuções
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Listagem das execuções atrelados à uma micro tarefa específica
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/MicroTaskExecutionSummary'
+
+  /micro_task/management/{task_id}/execution/{execution_id}/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa
+          schema:
+            type: string
+            format: uuid
+        - name: execution_id
+          in: path
+          required: true
+          description: ID da execução
+          schema:
+            type: string
+            format: uuid
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Micro Tarefa - Gestão
+      summary: Recupera uma execução de tarefa específica
+      operationId: Item de execução
+      parameters: 
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa
+          schema:
+            type: string
+            format: uuid
+
+        - name: execution_id
+          in: path
+          required: true
+          description: ID da execução
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Item de execução de tarefa
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content: 
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MicroTaskExecutionItem'
+
+  /micro_task/management/{task_id}/execution/{execution_id}/audit/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      parameters:
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa
+          schema:
+            type: string
+            format: uuid
+        - name: execution_id
+          in: path
+          required: true
+          description: ID da execução
+          schema:
+            type: string
+            format: uuid
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    post:
+      tags:
+        - Micro Tarefa - Gestão
+      summary: Efetua a auditoria de uma execução de tarefa
+      operationId: Auditoria de uma execução de tarefa
+      parameters: 
+        - name: task_id
+          in: path
+          required: true
+          description: ID da tarefa
+          schema:
+            type: string
+            format: uuid
+
+        - name: execution_id
+          in: path
+          required: true
+          description: ID da execução
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuditInfo'
+      responses:
+        '200':
+          description: Indica que a operação foi efetuada
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  SUCCESS:
+                    type: boolean
+                    description: Indica se houve sucesso ou insucesso na operação
+
+  /miscellaneous/app_version/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Diversos
+      summary: Recupera informações fundamentais para a inicialização do aplicativo
+      operationId: Versão do App
+      responses:
+        '200':
+          description: Informações para a inicialização do aplicativo
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  current_version:
+                    type: string
+                    description: Versão do aplicativo em produção
+                    example: '1.0.1-191101'
+                  maintenance:
+                    type: boolean
+                    description: Indica se a plataforma se encontra em manutenção ou se está operacional
+                    example: false
+                  url_base:
+                    type: string
+                    format: url
+                    description: URL Base para consumir a API da plataforma Sofie
+                    example: https://p2hn9po6p1.execute-api.us-east-1.amazonaws.com/alpha
+                  testers:
+                    type: array
+                    description: Lista de IDs de sofiers alocados para testes 
+                    items:
+                      description: ID de sofier, que é o email
+                      type: string
+                      format: email
+
+  /miscellaneous/bank/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      summary: Listagem de instituições financeiras
+      description: |
+        Retorna a listagem de instituições financeiras. Essa listagem é fixa 
+        em código.
+      tags:
+        - Diversos
+      operationId: Lista Bancos
+      responses:
+        '200':
+          description: Listagem de instituições financeiras
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data: 
+                    type: array
+                    description: Listragem de instituições bancárias
+                    items:
+                      type: object
+                      description: Informações de uma instituição bancária
+                      properties:
+                        code:
+                          type: string
+                          description: Código da instituição bancária
+                          example: '001'
+                        name:
+                          type: string
+                          description: Nome da instituição bancária
+                          example: Banco do Brasil
+
+  /miscellaneous/random/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags: 
+        - Diversos
+      summary: Sorteia um sofier para fins diversos
+      operationId: get_random_sofier
+      parameters:
+        - name: when_start 
+          in: query
+          required: false
+          description: Data de cadastramento, início
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: Nome de um sofier sorteado
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  short_name:
+                    type: string
+                    description: Nome do sofier
+                  email:
+                    type: string
+                    format: email
+                    description: eMail do sofier
+
+  /sofier/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Sofier
+      summary: Recupera a listagem de sofier, nome e email, sendo o email o ID
+      operationId: get_sofier_list
+      responses:
+        '200':
+          description: Listagem de sofiers
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties: 
+                        sofier:
+                          type: string
+                          format: eMail
+                          description: E-Mail, e ID, do sofier
+                        short_name:
+                          type: string
+                          description: Nome curto do sofier
+
+  /sofier/{sofier}/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+            format: email
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Sofier
+      summary: Recupera as informações cadastrais do sofier
+      operationId: Recupera dados cadastrais
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+            format: email
+      responses:
+        '200':
+          description: Dados cadastrais do sofier
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SofierInfo'
+
+    post:
+      tags:
+        - Sofier
+      summary: Edita as informações cadastrais do sofier
+      operationId: Edita dados cadastrais
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+            format: email
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SofierInfo'
+      responses:
+        '200':
+          description: Indica que houve sucesso na operação
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+
+  /sofier/{sofier}/balance/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+            format: email
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Financeiro
+      summary: Recupera os saldos fianceiros do sofier de cada fase
+      operationId: Balanço
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+            format: email
+      responses:
+        '200':
+          description: Saldos de cada fase de um sofier
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  VALIDATION:
+                    type: number
+                    description: Saldo referente às tarefas executadas porém aguardando a auditoria
+                  BLOCKED:
+                    type: number
+                    description: Saldo referente às tarefas aprovadas mas que estão na carência para liberação
+                  AVAILABLE:
+                    type: number
+                    description: Saldo disponível ao sofier para resgate
+                  WRONG:
+                    type: number
+                    description: Saldo referente às tarefas reprovadas pela auditoria
+                  has_available_movement:
+                    type: boolean
+                    description: Indica há movimentação na fase "AVAILABLE", memso que o saldo esteja zerado
+
+  /sofier/{sofier}/balance/statement/{phase}/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+            format: email
+        - name: phase
+          in: path
+          required: true
+          description: Fase da movimentação financeira
+          schema:
+            $ref: '#/components/schemas/LedgerPhase'
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Financeiro
+      summary: Recupera toda a movimentação financeira de um determinado sofier em um determinado estágio
+      operationId: Extrato
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+        - name: phase
+          in: path
+          required: true
+          description: Fase da movimentação financeira
+          schema:
+            $ref: '#/components/schemas/LedgerPhase'
+      responses:
+        '200':
+          description: Extrato da movimentação financeira ordenada de forma decrescente
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  listing:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/LedgerStatement'
+
+    delete:
+      tags:
+        - Financeiro
+      summary: Efetua uma saída, saque ou estorno, em uma determinada fase. No momento a única fase suportada é `AVAILABLE`
+      operationId: delete_statement
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+        - name: phase
+          in: path
+          required: true
+          description: Fase da movimentação financeira
+          schema:
+            $ref: '#/components/schemas/LedgerPhase'
+        - name: value
+          in: query
+          required: true
+          description: Valor solicitado para o débito
+          schema:
+            type: number
+        - name: reason
+          in: query
+          required: true
+          description: Tipo de débito que esta sendo efetuado
+          schema:
+            type: string
+            enum:
+              - WITHDRAWAL
+      responses:
+        '200':
+          description: Indica que houve sucesso na operação
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+
+  /sofier/{sofier}/ticket/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+            format: email
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Ticket de suporte
+      summary: Recupera a listagem de tickets abertos pelo sofier
+      operationId: Lista Ticket
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+            format: email
+      responses:
+        '200':
+          description: Lista de tickets abertos pelo sofier
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    description: Lista de tickets abertos pelo sofier
+                    items:
+                      $ref: '#/components/schemas/TicketInfoComplete'
+
+    post:
+      tags:
+        - Ticket de suporte
+      summary: Cria um novo ticket de suporte em nome do sofier
+      operationId: Cria Ticket
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o email
+          schema:
+            type: string
+            format: email
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TicketInfoNew' 
+      responses:
+        '201':
+          description: Indica que a operação foi executada com sucesso
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ticket_id:
+                    type: string
+                    format: uuid
+                    description: ID atribuído ao ticket
+
+  /ticket/dashboard/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Gestão de Tickets
+      summary: Recupera a totalização de tickets em suas respectivas fases
+      operationId: get_ticket_dashboard
+      responses:
+        '200':
+          description: Indica que houve sucesso na solicitação
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  NEW:
+                    type: integer
+                    description: Quantidade de tickets "NOVOS"
+                  IN_PROGRESS:
+                    type: integer
+                    description: Quantidade de tickets "EM PROGRESSO"
+                  FINISHED:
+                    type: integer
+                    description: Quantidade de tickets "FINALIZADOS"
+
+  /ticket/management/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Gestão de Tickets
+      summary: Lista todos os tickets que estão em um determinado status
+      operationId: get_ticket_list
+      parameters:
+        - name: status
+          in: query
+          required: true
+          description: Status em que se enconta o ticket
+          schema:
+            $ref: '#/components/schemas/TicketStatus'
+      responses:
+        '200':
+          description: Indica que houve sucesso na solicitação
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/TicketInfoComplete'
+
+  /ticket/management/{sofier}/{ticket_id}/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o seu email
+          schema:
+            type: string
+            format: email
+        - name: ticket_id
+          in: path
+          required: true
+          description: ID do ticket de suporte
+          schema: 
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    put:
+      tags:
+        - Gestão de Tickets
+      summary: Movimenta um determinado de fase
+      operationId: put_ticket
+      parameters:
+        - name: sofier
+          in: path
+          required: true
+          description: ID do sofier, que é o seu email
+          schema:
+            type: string
+            format: email
+        - name: ticket_id
+          in: path
+          required: true
+          description: ID do ticket de suporte
+          schema: 
+            type: string
+            format: uuid
+      requestBody:
+        content:
+          application/json:
+            schema:
+              oneOf:
+                - type: object
+                  description: Indica que o ticket foi acatado pelo backoffice e está em tratamento
+                  properties:
+                    status:
+                      type: string
+                      description: Indica que o ticket está "EM ANDAMENTO"
+                      enum:
+                        - IN_PROGRESS
+                    who:
+                      type: string
+                      format: email
+                      description: ID do usuário backoffice que acatou o ticket
+
+                - type: object
+                  description: Indica que o ticket foi concluído pelo backoffice
+                  properties:
+                    status:
+                      type: string
+                      description: Indica que o ticket foi "FINALIZADO"
+                      enum:
+                        - FINISHED
+                    who:
+                      type: string
+                      format: email
+                      description: ID do usuário backoffice que finalizou o ticket
+                    conclusion:
+                      type: string
+                      description: Descrição da solução pelo usuário do backoffice
+      responses:
+        '200':
+          description: Indica que houve sucesso na operação
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: boolean
+                description: Indica sucesso ou insucesso na operação
+
+  /training/tips/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Treinamento - Dicas
+      summary: Recupera a lista de dicas de utilização
+      operationId: get_tips_list
+      responses:
+        '200':
+          description: Listagem das dicas de utilização
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    description: Lista de dicas
+                    items:
+                      $ref: '#/components/schemas/TipInfo'
+
+    post:
+      tags:
+        - Treinamento - Dicas
+      summary: Inclui uma nova dica de utilização 
+      operationId: post_tip
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TipInfo'
+      responses:
+        '200':
+          description: 'Indica que houve sucesso na operação'
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TipInfo'  
+
+  /training/tips/{content_id}/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      parameters:
+        - name: content_id
+          in: path
+          required: true
+          description: ID da dica solicitada
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Treinamento - Dicas
+      summary: Recupera uma dica de utilização específica
+      operationId: get_tips_item
+      parameters:
+        - name: content_id
+          in: path
+          required: true
+          description: ID da dica solicitada
+          schema:
+            type: string
+            format: uuid
+        - name: jump
+          in: query
+          required: false
+          description: Indica que se deseja a dica posterior à dica informada
+          schema:
+            type: string
+            enum:
+              - next
+      responses:
+        '200':
+          description: Indica que houve sucesso na solicitação
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TipInfo'
+
+    put:
+      tags:
+        - Treinamento - Dicas
+      summary: Edita uma dica de utilização específica
+      operationId: put_tips_item
+      parameters:
+        - name: content_id
+          in: path
+          required: true
+          description: ID da dica solicitada
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TipInfo'
+      responses:
+        '200':
+          description: 'Indica que houve sucesso na operação'
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TipInfo'
+
+    delete:
+      tags:
+        - Treinamento - Dicas
+      summary: Elimina uma determinada dica
+      operationId: delete_tips_item
+      parameters:
+        - name: content_id
+          in: path
+          required: true
+          description: ID da dica solicitada
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Indica que houve sucesso na solicitação
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+
+  /training/instructions/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      parameters:
+        - name: content_id
+          in: path
+          required: true
+          description: ID da dica solicitada
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Treinamento - Instruções
+      summary: Lista sumarizada das instruções de execução dos desafios e informações correlatas
+      operationId: get_instructions_list
+      responses:
+        '200':
+          description: Lista sumarizada das instruções
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                          description: Nome do desafio
+                        alias:
+                          type: string
+                          description: Apelido do desafio
+
+        '500':
+          description: Indica que houve uma exeção não tratada do lado Servidor
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  err:
+                    type: string
+                    description: Descrição do erro não tratado
+
+  /training/instructions/{name}/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      parameters:
+        - name: name
+          in: path
+          required: true
+          description: Nome do desafio
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Treinamento - Instruções
+      summary: Dados de uma instruções de desafio específico
+      operationId: get_instructions_item
+      parameters:
+        - name: name
+          in: path
+          required: true
+          description: Nome do desafio
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Indica que houve sucesso na operação
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                    description: Nome do desafio
+                    example: PAT
+                  alias:
+                    type: string
+                    description: Apelido do desafio
+                    example: Conferência PAT
+                  type:
+                    $ref: '#/components/schemas/MicroTaskType'
+                  category:
+                    $ref: '#/components/schemas/MicroTaskCategory'
+                  reward:
+                    type: number
+                    description: Prêmio pela execução bem sucedida 
+                  lack_days:
+                    type: integer
+                    description: Dias de carência da liberação do prêmio 
+                  url_video:
+                    type: string
+                    format: url
+                    description: URL para o vídeo explicativo
+                  url_thumbnails:
+                    type: string
+                    format: url
+                    description: URL para a miniatura do vídeo
+                  description:
+                    type: string
+                    description: Resumo do desafio
+
+        '404':
+          description: Indica que o recurso solicitado não existe
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+
+        '500':
+          description: Indica que houve uma exeção não tratada do lado Servidor
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  err:
+                    type: string
+                    description: Descrição do erro não tratado
+
+  /report/:
+    options:
+      tags:
+        - Habilitação do CORS
+      summary: Habilita o CORS do recurso
+      description: Habilita o CORS retornando os cabeçalhos corretos
+      responses:
+        '200':
+          description: Respostas padrões
+          headers:
+            Access-Control-Allow-Headers:
+              type: string
+            Access-Control-Allow-Methods:
+              type: string
+            Access-Control-Allow-Origin:  
+              type: string
+      x-amazon-apigateway-integration:
+        type: mock
+        requestTemplates:
+          application/json: |
+            {
+              "statusCode" : 200
+            }
+        responses:
+          "default":
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Headers : "'Content-Type,X-Amz-Date,Authorization,X-Api-Key'"
+              method.response.header.Access-Control-Allow-Methods : "'*'"
+              method.response.header.Access-Control-Allow-Origin : "'*'"
+            responseTemplates:
+              application/json: |
+                {}      
+
+    get:
+      tags:
+        - Gestão - Relatórios
+      summary: Recupera a listagem de relatórios disponíveis
+      operationId: get_report_list
+      responses:
+        '200':
+          description: Lista de relatórios
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                          description: Nome do relatório 
+                          example: SOFIERS
+                        label:
+                          type: string
+                          description: Nome para exibição
+                          example: Listagem de sofiers
+                        params:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              query_string:
+                                type: string
+                                description: Nome do parâmetro
+                                example: start_when
+                              format:
+                                type: string
+                                enum:
+                                  - DATE
+                                description: Tipo de campo previsto
+                                example: DATE
+                              label:
+                                type: string
+                                description: Rótulo do campo
+                                example: Início
+                        actions:
+                          type: array
+                          items:
+                            type: object
+                            properties:
+                              label:
+                                $ref: '#/components/schemas/ReportFormat'
+                              value:
+                                type: string
+                                enum:
+                                  - CSV
+                                description: Valor a ser enviado
+                                example: CSV
+
+    post:
+      tags:
+        - Gestão - Relatórios
+      summary: >
+        Solicita a geração de relatórios. *Observe que além dos parâmetros aqui descrito deve-se enviar os parâmetros 
+        previstos na configuração do relatório*
+      operationId: post_report
+      parameters:
+        - name: name
+          in: query
+          required: true
+          description: Nome do relatório
+          schema:
+            type: string
+            enum:
+              - SOFIERS
+              - EXTRATO
+              - SALDOS
+        - name: format
+          in: query
+          required: true
+          description: Formato do relatório
+          schema:
+            $ref: '#/components/schemas/ReportFormat'
+      responses:
+        '200':
+          description: Download do relatório gerado
+          headers:
+            Access-Control-Allow-Origin:  
+              type: string
+          content:
+            text/csv:
+              schema:
+                type: string
+
+components:
+
+  schemas:
+
+    TaskStart:
+      type: object
+      description: Contêm as informações necessárias para a execução de uma tarefa
+      properties:
+        task_id:
+          type: string
+          format: uuid
+          description: ID da tarefa
+        execution_id:
+          type: string
+          format: uuid
+          description: ID da execução (gerado pelo backend)
+        task_flow:
+          type: array
+          items:
+            type: string
+        variables:
+          type: object
+        task_info:
+          type: object
+          properties:
+            name:
+              type: string
+              description: Nome da tarefa, e.g. PAT
+            version:
+              type: number
+              description: Versão da configuração da tarefa
+
+    TaskFinish:
+      type: object
+      description: informações relativas à execução de uma tarefa por um sofier
+      properties:
+        task_id:
+          type: string
+          format: uuid
+          description: ID da tarefa
+        execution_id:
+          type: string
+          format: uuid
+          description: ID da execução
+        task_info:
+          type: object
+          description: informações da tarefa
+          properties:
+            name:
+              type: string
+              description: Nome da tarefa
+            version:
+              type: number
+              description: Versão da configuração da tarefa
+        who:
+          type: string
+          description: ID do sofier que executou a tarefa
+        location:
+          type: object
+          description: Dados da localização da tarefa
+          properties:
+            lat:
+              type: number
+              description: Latitude
+            lng: 
+              type: number
+              description: Longitude
+            acc: 
+              type: number
+              description: Acuracidade
+            alt:
+              type: number
+              description: Altitude
+        when:
+          type: object
+          properties:
+            start:
+              type: string
+              format: date-time
+              description: Data e hora de início da execução
+            finish:
+              type: string
+              format: date-time
+              description: Data e hora de finalização da execução
+        nps_sofier:
+          type: object
+          properties:
+            nps:
+              type: integer
+              format: int32
+              description: Nota do sofier quanto à experiência do usuário
+              minimum: 1
+              maximum: 5
+            comment:
+              type: string
+              description: Observações do sofier quanto à experiência
+        execution:
+          type: array
+          items:
+            $ref: '#/components/schemas/MicroTaskStepExecution'
+
+    FlowPhaseStyle:
+      type: string
+      description: Tipo da ação de interação
+      enum:
+        - toggle
+        - radio
+        - checkbox
+        - photo
+        - contact
+        - message
+        - memo
+        - case
+        - integer
+        - finish
+        - set_variable
+
+    LedgerPhase:
+      type: string
+      description: Fase em que se encontra a movimentação financeira
+      enum:
+        - AVAILABLE
+        - VALIDATION
+        - BLOCKED
+        - WRONG
+
+    MicroTaskState:
+      type: string
+      description: Valores válidos para o "ESTADO" de uma tarefa
+      enum:
+        - NEW
+        - FINISHED
+        - EXECUTED
+        - REJECTED
+
+    MicroTaskStatus:
+      type: string
+      description: Valores válidos para a "SITUAÇÃO" de uma tarefa
+      enum:
+        - WAITING
+        - FAILURE
+        - SUCCESS
+        - EXECUTED
+        - REJECTED
+
+    MicroTaskStepExecution:
+      type: object
+      properties:
+        context:
+          type: string
+          description: Identificação do contexto
+        index:
+          type: integer
+          description: Índice do passo dentro do fluxo completo
+        response:
+          type: string
+          description: Valor da reposta 
+        label:
+          type: string
+          description: Valor da reposta amigável ao usuário
+        statement:
+          type: string
+          description: Enunciado do passo
+        style:
+            $ref: '#/components/schemas/FlowPhaseStyle'
+        when:
+          type: string
+          format: date-time
+          description: Data e hora da execução do passo
+
+    LedgerStatement:
+      type: object
+      description: Representa uma movimentação financeira
+      properties:
+        phase:
+          $ref: '#/components/schemas/LedgerPhase'
+        task_id:
+          type: string
+          format: uuid
+          description: ID da tarefa a que se refere a movimentação financeira
+        execution_id:
+          type: string
+          format: uuid
+          description: ID da execução da tarefa a que se refere a movimentação financeira
+        reward:
+          type: number
+          description: Valor da movimentação. Valores positivos caracterizam créditos enquanto que valores negativos caracterizam débitos.
+        sofie_place:
+          type: object
+          properties:
+            name:
+              type: string
+              description: Nome do lugar a que se refere a movimentação financeira
+            address:
+              type: string
+              description: Endereço do estabelecimento visitado
+        first_move:
+          type: string
+          format: date-time
+          description: Data e hora da primeira movimentação
+        last_move:
+          type: string
+          format: date-time
+          description: Data e hora da última movimentação
+        date_to_available:
+          type: string
+          format: date-time
+          description: Data prevista para a liberação dos valores após a auditoria
+        task:
+          type: object
+          properties:
+            category:
+              $ref: '#/components/schemas/MicroTaskCategory'
+            type:
+              $ref: '#/components/schemas/MicroTaskType'            
+            name:
+              type: string
+              description: Nome (e ID) do desafio
+
+    MicroTaskSummary:
+      type: object
+      description: Representa o resumo de uma micro tarefa
+      properties:
+        company:
+          type: string
+          description: ID da empresa parceira
+        task_id:
+          type: string
+          format: uuid
+          description: ID da tarefa
+        task:
+          type: object
+          description: Informações sobre a tarefa
+          properties:
+            type:
+              $ref: '#/components/schemas/MicroTaskType'
+            category:
+              $ref: '#/components/schemas/MicroTaskCategory'
+            name:
+              type: string
+              description: Nome da tarefa
+        status:
+          type: object
+          description: Informações sobre o status da tarefa
+          properties:
+            state:
+              $ref: '#/components/schemas/MicroTaskState'
+            status:
+              $ref: '#/components/schemas/MicroTaskStatus'
+            last_sofier:
+              type: string
+              format: email
+              description: ID do último sofier que interagiu com a tarefa
+        address:
+          type: object
+          description: Partes do endereço 
+          properties:
+            city:
+              type: string
+              description: Nome da cidade
+            state:
+              type: string
+              description: Unidade Federativa
+        last_movement:
+          type: string
+          format: date-time
+        original:
+          type: object
+          description: Dados originais do mailing recebido
+
+    MicroTaskItem:
+      type: object
+      properties:
+        company:
+          type: string
+          description: ID da empresa ao qual pertence a micro tarefa
+        task_id:
+          type: string
+          format: uuid
+          description: ID da tarefa
+        address:
+          $ref: '#/components/schemas/PostalAddress'
+        original:
+          type: object
+          description: Dados originais recebidos no mailing da empresa parceira
+        sofie_place:
+          type: object
+          description: Dados normalizados do estabelecimento
+          properties:
+            name:
+              type: string
+              description: Nome próprio do estabelecimento
+            responsible:
+              type: string
+              description: Nome da pessoa responsável pelo estabelecimento
+            location:
+              type: object
+              description: Coordenadas geográficas do estabelecimento
+              properties:
+                lng:
+                  type: number
+                  description: Longitude
+                lat:
+                  type: number
+                  description: Latitude
+        status:
+          type: object
+          description: Informações sobre o status da micro tarefa
+          properties:
+            state:
+              $ref: '#/components/schemas/MicroTaskState'
+            status:
+              $ref: '#/components/schemas/MicroTaskStatus'
+            when:
+              type: string
+              format: date-time
+              description: Data e hora da importação das informações
+            lot_reference:
+              type: string
+              description: Referência ao arquivo de importação
+            row_line:
+              type: integer
+              description: Número da linha no arquivo de importação  
+
+    MicroTaskExecutionSummary:
+      type: object
+      description: Representa o resumo de uma execução
+      properties:
+        result:
+          $ref: '#/components/schemas/MicroTaskExecutionResult'
+        task_id:
+          type: string
+          format: uuid
+          description: ID da tarefa
+        execution_id:
+          type: string
+          format: uuid
+          description: ID da execução
+        when:
+          type: object
+          description: Datas de início e fim de execução da tarefa
+          properties:
+            start:
+              type: string
+              format: date-time
+              description: Data de início da execução
+            finish:
+              type: string
+              format: date-time
+              description: Data de finalização da execução
+        who:
+          type: string
+          description: ID do sofier que executou a tarefa
+
+    MicroTaskExecutionItem:            
+      type: object
+      properties:
+        task_id:
+          type: string
+          format: uuid
+          description: ID da tarefa
+        execution_id:
+          type: string
+          format: uuid
+          description: ID da execução
+        result:
+          $ref: '#/components/schemas/MicroTaskExecutionResult'
+        who:
+          type: string
+          format: email
+          description: ID do sofier que executou a tarefa
+        execution:
+          type: array
+          items:
+            $ref: '#/components/schemas/MicroTaskStepExecution'
+        task_info:
+          type: object
+          description: Dados da tarefa execuatada
+          properties:
+            name: 
+              type: string
+              description: Nome da tarefa executada
+            version:
+              type: integer
+              description: Versão da tarefa executada
+        when:
+          type: object
+          description: Data e hora de início e fim da execução
+          properties:
+            start:
+              type: string
+              format: date-time
+              description: Data de início da execução
+            finish:
+              type: string
+              format: date-time
+              description: Data de finalização da execução
+        nps_sofier:
+          type: object
+          description: NPS da experiência do sofier ao executar a tarefa
+          properties:
+            nps:
+              type: integer
+              format: int32
+              minimum: 1
+              maximum: 5
+            comment:
+              type: string
+              description: Observações do sofier quanto à experiência
+            style:
+              type: string
+              enum:
+                - internal:nps
+        audit:
+          $ref: '#/components/schemas/AuditInfo'
+        location:
+          type: object
+          description: Geolocalização da execução da tarefa
+          properties:
+            acc:
+              type: number
+              description: Acuracidade das informações
+            alt:
+              type: number
+              description: Altitude
+            lng:
+              type: number
+              description: Longitude
+            lat:
+              type: number
+              description: Latitude
+
+    MicroTaskType:
+      type: string
+      description: Tipo de micro tarefa previsto na plataforma
+      enum:
+        - inspection
+
+    MicroTaskCategory:
+      type: string
+      description: Categoria de micro tarefa previsto na plataforma
+      enum:
+        - in_person
+
+    MicroTaskExecutionResult:
+      type: string
+      description: Resultados possíveis de uma execução de micro tarefa
+      enum:
+        - POSTPONE
+        - CANCEL
+        - FINISH
+
+    PostalAddress:
+      type: object
+      description: Todas as partes de um endereçamento postal
+      properties:
+        type:
+          type: string
+          description: Tipo do logradouro
+          example: Avenida
+        full_name:
+          type: string
+          description: Nome do logradouro
+          example: Paulista
+        number:
+          type: string
+          description: Número do logradouro
+          example: 900
+        complement:
+          type: string
+          description: Complemento do logradouro
+          example: 1º Andar
+        district:
+          type: string
+          description: Nome do bairro
+          example: Bela Vista
+        city:
+          type: string
+          description: Nome da cidade
+          example: São Paulo
+        state:
+          type: string
+          description: Unidade da Federeção
+          example: SP
+        country:
+          type: string
+          description: Nome do país
+          example: Brasil
+        reference:
+          type: string
+          description: Referência para localização 
+          example: Teatro Gazeta
+        postal_code:
+          type: string
+          description: CEP do logradouro
+          example: 01310-100
+        formatted_address:
+          type: string
+          description: Endereço completo formatado
+          example: Avenida Paulista, 900, 1º Andar - Bela Vista, São Paulo - SP, 01310-100 
+
+    AuditInfo:
+      type: object
+      description: Resultado da auditoria
+      properties:
+        reason:
+          type: string
+          description: Observações por parte do auditor
+        approved:
+          type: boolean
+          description: Indica se a execução foi aprovada ou reprovada
+        when:
+          type: string
+          format: date-time
+          description: Data e hora em que a auditoria foi realizada
+        who:
+          type: string
+          format: email
+          description: ID do usuário que executou a auditoria
+
+    ActionTaskReserve:
+      type: string
+      description: Ação que será aplicada à uma reserva de tarefa
+      enum:
+        - accept
+        - reject
+
+    SofierInfo:
+      type: object
+      description: Dados cadastrais do sofier
+      properties:
+        main_phone:
+          type: string
+          description: Telefone principal do sofier
+          example: '11988887777'
+        sofier:
+          type: string
+          format: email
+          description: ID do sofier, que é o email
+        short_name:
+          type: string
+          description: Nome de tratamento do sofier
+          example: Fulano
+        full_name:
+          type: string
+          description: Nome completo do sofier
+          example: Fulano da Silva
+        document:
+          type: string
+          description: Número do documento fiscal - CPF
+          example: '999.888.777-66'
+        when:
+          type: string
+          format: date-time
+          description: Data do cadastramento do sofier na plataforma
+        birthday:
+          type: string
+          format: date
+          description: Data de nascimento do sofier
+        bank_checking_account:
+          type: object
+          description: Dados bancários do sofier
+          properties:
+            code:
+              type: string
+              description: Código da instituição bancária
+              example: '001'
+            name:
+              type: string
+              description: Nome da instituição bancária
+              example: Banco do Brasil
+            account_digit:
+              type: string
+              description: Dígito verificador da conta bancária
+              example: '4'
+            account_type:
+              type: string
+              description: Tipo da conta bancária
+              enum:
+                - conta_corrente
+                - conta_poupanca
+              example: conta_corrente
+            agency:
+              type: string
+              description: Código da agência bancária
+              example: '0001'
+            account:
+              type: string
+              description: Número da conta bancária
+              example: '1170488'
+
+    TicketInfoNew:
+      type: object
+      description: Criação de ticket de suporte
+      properties:
+        sofier:
+          type: string
+          format: email
+          description: ID do sofier, que é o email
+        status:
+          $ref: '#/components/schemas/TicketStatus'
+        content:
+          type: string
+          description: Descrição do problema por parte do sofier
+        when:
+          type: string
+          format: date-time
+          description: Data de abertura do ticket
+
+    TicketInfoComplete:
+      type: object
+      description: Ticket de suporte tratado
+      properties:
+        ticket_id:
+          type: string
+          format: uuid
+          description: ID do ticket
+        sofier:
+          type: string
+          format: email
+          description: ID do sofier, que é o email
+        status:
+          $ref: '#/components/schemas/TicketStatus'
+        content:
+          type: string
+          description: Descrição do problema por parte do sofier
+        when:
+          type: string
+          format: date-time
+          description: Data de abertura do ticket
+        backoffice:
+          type: object
+          description: Informações sobre o momento em que o ticket foi acatado
+          properties:
+            when:
+              type: string
+              format: date-time
+              description: Date em que o ticket foi acatado
+            who:
+              type: string
+              format: email
+              description: ID do usuário que acatou o ticket, que é o seu email
+        conclusion:
+          type: object
+          description: Informações sobre a conclusão e fechamento do ticket
+          properties:
+            when:
+              type: string
+              format: date-time
+              description: Data em que o ticket foi concluído e fechado
+            who:
+              type: string
+              format: email
+              description: ID do usuário que concluiu o ticket, que é o seu email
+            content:
+              type: string
+              description: Descrição da solução por parte do backoffice
+
+    TicketStatus:
+      type: string
+      description: Status de um ticket de suporte
+      enum:
+        - NEW 
+        - IN_PROGRESS
+        - FINISHED
+
+    TipInfo:
+      type: object
+      description: Informações pertinentes à uma dica de utilização
+      properties:
+        content_id:
+          type: string
+          format: uuid
+          description: ID de uma dica
+        title:
+          type: string
+          description: Título da dica
+        content:
+          type: string
+          description: Conteúdo de uma dica, com suporte ao markdown
+        kind:
+          type: string
+          description: Tipo de dica para efeitos de formatação
+          enum:
+            - tip
+
+    ReportFormat:
+      type: string
+      description: Tipo de formato de relatório
+      enum:
+        - CSV

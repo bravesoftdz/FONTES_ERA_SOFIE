@@ -1,0 +1,1964 @@
+﻿Pessoa;Pergunta;Idade;Sexo;Classe
+1;Características do veículo (marca, ano e etc);4 - MADURO;Feminino;B
+1;Se possui animais de estimação;4 - MADURO;Feminino;B
+1;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Feminino;B
+1;Se possui smartphone?;4 - MADURO;Feminino;B
+1;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Feminino;B
+1;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Feminino;B
+1;Se possui filhos menores de 12 anos;4 - MADURO;Feminino;B
+1;Se possui filhos menores de 18 anos;4 - MADURO;Feminino;B
+1;Se possui casa própria ou se é alugada;4 - MADURO;Feminino;B
+1;Se os filhos estudam em colégio particular;4 - MADURO;Feminino;B
+1;Sobre a profissão que exerce;4 - MADURO;Feminino;B
+1;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Feminino;B
+1;Se gosta de ir em shows;4 - MADURO;Feminino;B
+2;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;E
+2;Se possui animais de estimação;2 - JOVEM;Feminino;E
+2;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;E
+2;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;E
+2;Sobre a profissão que exerce;2 - JOVEM;Feminino;E
+3;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Feminino;D
+3;Se possui filhos menores de 12 anos;1 - ADOLESCENTE;Feminino;D
+3;Se possui filhos menores de 18 anos;1 - ADOLESCENTE;Feminino;D
+3;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Feminino;D
+3;Se os filhos estudam em colégio particular;1 - ADOLESCENTE;Feminino;D
+3;Se gosta de ir em shows;1 - ADOLESCENTE;Feminino;D
+4;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Feminino;E
+4;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Feminino;E
+4;Se possui animais de estimação;4 - MADURO;Feminino;E
+4;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Feminino;E
+4;Se possui smartphone?;4 - MADURO;Feminino;E
+4;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Feminino;E
+4;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Feminino;E
+4;Se possui filhos menores de 12 anos;4 - MADURO;Feminino;E
+4;Se possui casa própria ou se é alugada;4 - MADURO;Feminino;E
+4;Se os filhos estudam em colégio particular;4 - MADURO;Feminino;E
+4;Se tem plano de saúde;4 - MADURO;Feminino;E
+4;Se possui seguro de vida, de imóvel ou de carro;4 - MADURO;Feminino;E
+4;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Feminino;E
+4;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Feminino;E
+4;Eu não responderia à nenhuma destas questões;4 - MADURO;Feminino;E
+5;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);1 - ADOLESCENTE;Feminino;D
+5;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Feminino;D
+5;Se possui animais de estimação;1 - ADOLESCENTE;Feminino;D
+5;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Feminino;D
+5;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Feminino;D
+5;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);1 - ADOLESCENTE;Feminino;D
+5;Se possui smartphone?;1 - ADOLESCENTE;Feminino;D
+5;Se costuma comprar parcelado ou à vista?;1 - ADOLESCENTE;Feminino;D
+5;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Feminino;D
+5;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Feminino;D
+5;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Feminino;D
+5;Se o celular é pós pago ou pré pago;1 - ADOLESCENTE;Feminino;D
+5;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);1 - ADOLESCENTE;Feminino;D
+6;Eu não responderia à nenhuma destas questões;1 - ADOLESCENTE;Feminino;E
+7;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;E
+8;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Feminino;C
+8;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;C
+8;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;C
+8;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;C
+8;Se possui smartphone?;2 - JOVEM;Feminino;C
+8;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;C
+8;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;C
+8;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;C
+8;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;C
+8;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;C
+8;Se gosta de ir em shows;2 - JOVEM;Feminino;C
+8;Se tem plano de saúde;2 - JOVEM;Feminino;C
+8;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;C
+8;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;C
+8;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;C
+8;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;C
+8;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;C
+9;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);5 - MELHOR IDADE;Feminino;D
+9;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);5 - MELHOR IDADE;Feminino;D
+9;Se possui animais de estimação;5 - MELHOR IDADE;Feminino;D
+9;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;5 - MELHOR IDADE;Feminino;D
+9;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);5 - MELHOR IDADE;Feminino;D
+9;Se possui smartphone?;5 - MELHOR IDADE;Feminino;D
+9;Se costuma comprar parcelado ou à vista?;5 - MELHOR IDADE;Feminino;D
+9;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);5 - MELHOR IDADE;Feminino;D
+9;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);5 - MELHOR IDADE;Feminino;D
+9;Se possui filhos menores de 12 anos;5 - MELHOR IDADE;Feminino;D
+9;Se possui casa própria ou se é alugada;5 - MELHOR IDADE;Feminino;D
+9;Se os filhos estudam em colégio particular;5 - MELHOR IDADE;Feminino;D
+9;Se faz academia ou pratica esportes de modo geral;5 - MELHOR IDADE;Feminino;D
+9;Se gosta de ir em shows;5 - MELHOR IDADE;Feminino;D
+9;Se tem plano de saúde;5 - MELHOR IDADE;Feminino;D
+9;Sobre a sua operadora de telefonia (Claro, Vivo e etc);5 - MELHOR IDADE;Feminino;D
+9;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);5 - MELHOR IDADE;Feminino;D
+10;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;E
+10;Se os filhos estudam em colégio particular;2 - JOVEM;Feminino;E
+11;Se possui animais de estimação;2 - JOVEM;Feminino;E
+11;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;E
+11;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;E
+11;Se possui smartphone?;2 - JOVEM;Feminino;E
+11;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;E
+11;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;E
+11;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;E
+11;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;E
+11;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;E
+11;Se os filhos estudam em colégio particular;2 - JOVEM;Feminino;E
+11;Sobre a profissão que exerce;2 - JOVEM;Feminino;E
+11;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;E
+11;Se gosta de ir em shows;2 - JOVEM;Feminino;E
+12;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Feminino;E
+12;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;E
+12;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;E
+12;Se possui animais de estimação;2 - JOVEM;Feminino;E
+12;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;E
+12;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;E
+12;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;E
+12;Se possui smartphone?;2 - JOVEM;Feminino;E
+12;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;E
+12;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;E
+12;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;E
+12;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;E
+12;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;E
+12;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;E
+12;Se os filhos estudam em colégio particular;2 - JOVEM;Feminino;E
+12;Sobre a profissão que exerce;2 - JOVEM;Feminino;E
+12;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;E
+12;Se gosta de ir em shows;2 - JOVEM;Feminino;E
+12;Se tem plano de saúde;2 - JOVEM;Feminino;E
+12;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;E
+12;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;E
+12;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;E
+12;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;E
+12;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;E
+12;Eu não responderia à nenhuma destas questões;2 - JOVEM;Feminino;E
+13;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Feminino;B
+13;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Feminino;B
+13;Se possui animais de estimação;4 - MADURO;Feminino;B
+13;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Feminino;B
+13;Se gosta de viajar e com que frequência;4 - MADURO;Feminino;B
+13;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Feminino;B
+13;Se o celular é pós pago ou pré pago;4 - MADURO;Feminino;B
+14;Características do veículo (marca, ano e etc);4 - MADURO;Feminino;B
+14;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Feminino;B
+14;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Feminino;B
+14;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Feminino;B
+14;Se possui animais de estimação;4 - MADURO;Feminino;B
+14;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Feminino;B
+14;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Feminino;B
+14;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Feminino;B
+14;Se possui smartphone?;4 - MADURO;Feminino;B
+14;Se costuma comprar parcelado ou à vista?;4 - MADURO;Feminino;B
+14;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Feminino;B
+14;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Feminino;B
+14;Se possui filhos menores de 12 anos;4 - MADURO;Feminino;B
+14;Se possui filhos menores de 18 anos;4 - MADURO;Feminino;B
+14;Se possui casa própria ou se é alugada;4 - MADURO;Feminino;B
+14;Se os filhos estudam em colégio particular;4 - MADURO;Feminino;B
+14;Sobre a profissão que exerce;4 - MADURO;Feminino;B
+14;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Feminino;B
+14;Se gosta de ir em shows;4 - MADURO;Feminino;B
+14;Se tem plano de saúde;4 - MADURO;Feminino;B
+14;Se possui seguro de vida, de imóvel ou de carro;4 - MADURO;Feminino;B
+14;Se gosta de viajar e com que frequência;4 - MADURO;Feminino;B
+14;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Feminino;B
+14;Se o celular é pós pago ou pré pago;4 - MADURO;Feminino;B
+14;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Feminino;B
+14;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Feminino;B
+15;Se possui animais de estimação;2 - JOVEM;Feminino;E
+15;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;E
+16;Eu não responderia à nenhuma destas questões;2 - JOVEM;Feminino;D
+17;Características do veículo (marca, ano e etc);2 - JOVEM;Feminino;D
+17;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;D
+17;Se possui smartphone?;2 - JOVEM;Feminino;D
+17;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;D
+17;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;D
+17;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;D
+17;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;D
+17;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;D
+17;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;D
+18;Características do veículo (marca, ano e etc);2 - JOVEM;Feminino;E
+18;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Feminino;E
+18;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;E
+18;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;E
+18;Se possui animais de estimação;2 - JOVEM;Feminino;E
+18;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;E
+18;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;E
+18;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;E
+18;Se possui smartphone?;2 - JOVEM;Feminino;E
+18;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;E
+18;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;E
+18;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;E
+18;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;E
+18;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;E
+18;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;E
+18;Se os filhos estudam em colégio particular;2 - JOVEM;Feminino;E
+18;Sobre a profissão que exerce;2 - JOVEM;Feminino;E
+18;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;E
+18;Se gosta de ir em shows;2 - JOVEM;Feminino;E
+18;Se tem plano de saúde;2 - JOVEM;Feminino;E
+18;Se possui seguro de vida, de imóvel ou de carro;2 - JOVEM;Feminino;E
+18;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;E
+18;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;E
+18;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;E
+18;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;E
+18;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;E
+18;Eu não responderia à nenhuma destas questões;2 - JOVEM;Feminino;E
+19;Se possui smartphone?;2 - JOVEM;Feminino;E
+19;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;E
+20;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;C
+20;Se possui animais de estimação;2 - JOVEM;Feminino;C
+20;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;C
+20;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;C
+20;Se possui smartphone?;2 - JOVEM;Feminino;C
+20;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;C
+20;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;C
+20;Se gosta de ir em shows;2 - JOVEM;Feminino;C
+20;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;C
+20;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;C
+20;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;C
+21;Características do veículo (marca, ano e etc);5 - MELHOR IDADE;Feminino;C
+21;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);5 - MELHOR IDADE;Feminino;C
+21;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);5 - MELHOR IDADE;Feminino;C
+21;Aniversário e outras datas festivas (Casamento por exemplo);5 - MELHOR IDADE;Feminino;C
+21;Se possui animais de estimação;5 - MELHOR IDADE;Feminino;C
+21;Informações sociais como sexo, idade, estado civil por exemplo;5 - MELHOR IDADE;Feminino;C
+21;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);5 - MELHOR IDADE;Feminino;C
+21;Se possui smartphone?;5 - MELHOR IDADE;Feminino;C
+21;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);5 - MELHOR IDADE;Feminino;C
+21;Sobre a profissão que exerce;5 - MELHOR IDADE;Feminino;C
+21;Se gosta de viajar e com que frequência;5 - MELHOR IDADE;Feminino;C
+21;Sobre a sua operadora de telefonia (Claro, Vivo e etc);5 - MELHOR IDADE;Feminino;C
+21;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);5 - MELHOR IDADE;Feminino;C
+22;Eu não responderia à nenhuma destas questões;1 - ADOLESCENTE;Feminino;C
+23;Características do veículo (marca, ano e etc);2 - JOVEM;Feminino;C
+23;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Feminino;C
+23;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;C
+23;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;C
+23;Se possui animais de estimação;2 - JOVEM;Feminino;C
+23;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;C
+23;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;C
+23;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;C
+23;Se possui smartphone?;2 - JOVEM;Feminino;C
+23;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;C
+23;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;C
+23;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;C
+23;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;C
+23;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;C
+23;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;C
+23;Se os filhos estudam em colégio particular;2 - JOVEM;Feminino;C
+23;Sobre a profissão que exerce;2 - JOVEM;Feminino;C
+23;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;C
+23;Se gosta de ir em shows;2 - JOVEM;Feminino;C
+23;Se tem plano de saúde;2 - JOVEM;Feminino;C
+23;Se possui seguro de vida, de imóvel ou de carro;2 - JOVEM;Feminino;C
+23;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;C
+23;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;C
+23;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;C
+23;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;C
+23;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;C
+23;Eu não responderia à nenhuma destas questões;2 - JOVEM;Feminino;C
+24;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;E
+24;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;E
+24;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;E
+24;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;E
+25;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;C
+25;Se possui animais de estimação;2 - JOVEM;Feminino;C
+25;Se possui smartphone?;2 - JOVEM;Feminino;C
+25;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;C
+25;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;C
+25;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;C
+25;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;C
+25;Se os filhos estudam em colégio particular;2 - JOVEM;Feminino;C
+25;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;C
+25;Se gosta de ir em shows;2 - JOVEM;Feminino;C
+26;Características do veículo (marca, ano e etc);2 - JOVEM;Feminino;C
+26;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;C
+26;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;C
+26;Se possui animais de estimação;2 - JOVEM;Feminino;C
+26;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;C
+26;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;C
+26;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;C
+26;Se possui smartphone?;2 - JOVEM;Feminino;C
+26;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;C
+26;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;C
+26;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;C
+26;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;C
+26;Sobre a profissão que exerce;2 - JOVEM;Feminino;C
+26;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;C
+26;Se gosta de ir em shows;2 - JOVEM;Feminino;C
+26;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;C
+26;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;C
+26;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;C
+26;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;C
+26;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;C
+27;Características do veículo (marca, ano e etc);1 - ADOLESCENTE;Feminino;B
+27;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);1 - ADOLESCENTE;Feminino;B
+27;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Feminino;B
+27;Aniversário e outras datas festivas (Casamento por exemplo);1 - ADOLESCENTE;Feminino;B
+27;Se possui animais de estimação;1 - ADOLESCENTE;Feminino;B
+27;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Feminino;B
+27;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Feminino;B
+27;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);1 - ADOLESCENTE;Feminino;B
+27;Se possui smartphone?;1 - ADOLESCENTE;Feminino;B
+27;Se costuma comprar parcelado ou à vista?;1 - ADOLESCENTE;Feminino;B
+27;Se possui filhos menores de 12 anos;1 - ADOLESCENTE;Feminino;B
+27;Se possui filhos menores de 18 anos;1 - ADOLESCENTE;Feminino;B
+27;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Feminino;B
+27;Se os filhos estudam em colégio particular;1 - ADOLESCENTE;Feminino;B
+27;Sobre a profissão que exerce;1 - ADOLESCENTE;Feminino;B
+27;Se faz academia ou pratica esportes de modo geral;1 - ADOLESCENTE;Feminino;B
+27;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);1 - ADOLESCENTE;Feminino;B
+28;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Feminino;E
+28;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;E
+28;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;E
+28;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;E
+28;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;E
+28;Se os filhos estudam em colégio particular;2 - JOVEM;Feminino;E
+28;Se gosta de ir em shows;2 - JOVEM;Feminino;E
+28;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;E
+28;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;E
+29;Aniversário e outras datas festivas (Casamento por exemplo);5 - MELHOR IDADE;Feminino;C
+29;Se possui animais de estimação;5 - MELHOR IDADE;Feminino;C
+29;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);5 - MELHOR IDADE;Feminino;C
+29;Se possui casa própria ou se é alugada;5 - MELHOR IDADE;Feminino;C
+29;Se gosta de ir em shows;5 - MELHOR IDADE;Feminino;C
+29;Sobre a sua operadora de telefonia (Claro, Vivo e etc);5 - MELHOR IDADE;Feminino;C
+29;Se o celular é pós pago ou pré pago;5 - MELHOR IDADE;Feminino;C
+30;Características do veículo (marca, ano e etc);1 - ADOLESCENTE;Feminino;D
+30;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Feminino;D
+30;Se possui animais de estimação;1 - ADOLESCENTE;Feminino;D
+30;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Feminino;D
+30;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);1 - ADOLESCENTE;Feminino;D
+30;Se possui smartphone?;1 - ADOLESCENTE;Feminino;D
+30;Se costuma comprar parcelado ou à vista?;1 - ADOLESCENTE;Feminino;D
+30;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Feminino;D
+30;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Feminino;D
+30;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Feminino;D
+30;Se o celular é pós pago ou pré pago;1 - ADOLESCENTE;Feminino;D
+31;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);1 - ADOLESCENTE;Feminino;E
+31;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Feminino;E
+31;Aniversário e outras datas festivas (Casamento por exemplo);1 - ADOLESCENTE;Feminino;E
+31;Se possui animais de estimação;1 - ADOLESCENTE;Feminino;E
+31;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Feminino;E
+31;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Feminino;E
+31;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);1 - ADOLESCENTE;Feminino;E
+31;Se possui smartphone?;1 - ADOLESCENTE;Feminino;E
+31;Se costuma comprar parcelado ou à vista?;1 - ADOLESCENTE;Feminino;E
+31;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Feminino;E
+31;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Feminino;E
+31;Se possui filhos menores de 12 anos;1 - ADOLESCENTE;Feminino;E
+31;Se possui filhos menores de 18 anos;1 - ADOLESCENTE;Feminino;E
+31;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Feminino;E
+31;Se os filhos estudam em colégio particular;1 - ADOLESCENTE;Feminino;E
+31;Sobre a profissão que exerce;1 - ADOLESCENTE;Feminino;E
+31;Se faz academia ou pratica esportes de modo geral;1 - ADOLESCENTE;Feminino;E
+31;Se gosta de ir em shows;1 - ADOLESCENTE;Feminino;E
+31;Se tem plano de saúde;1 - ADOLESCENTE;Feminino;E
+31;Se possui seguro de vida, de imóvel ou de carro;1 - ADOLESCENTE;Feminino;E
+31;Se gosta de viajar e com que frequência;1 - ADOLESCENTE;Feminino;E
+31;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Feminino;E
+31;Se o celular é pós pago ou pré pago;1 - ADOLESCENTE;Feminino;E
+31;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);1 - ADOLESCENTE;Feminino;E
+31;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);1 - ADOLESCENTE;Feminino;E
+32;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);1 - ADOLESCENTE;Feminino;C
+32;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Feminino;C
+32;Aniversário e outras datas festivas (Casamento por exemplo);1 - ADOLESCENTE;Feminino;C
+32;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Feminino;C
+32;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Feminino;C
+32;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Feminino;C
+32;Sobre a profissão que exerce;1 - ADOLESCENTE;Feminino;C
+32;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);1 - ADOLESCENTE;Feminino;C
+33;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Feminino;E
+33;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Feminino;E
+33;Se possui smartphone?;3 - ADULTO;Feminino;E
+33;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Feminino;E
+33;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Feminino;E
+33;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Feminino;E
+33;Se possui filhos menores de 12 anos;3 - ADULTO;Feminino;E
+33;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Feminino;E
+33;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Feminino;E
+33;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Feminino;E
+34;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);5 - MELHOR IDADE;Feminino;C
+34;Aniversário e outras datas festivas (Casamento por exemplo);5 - MELHOR IDADE;Feminino;C
+34;Se possui animais de estimação;5 - MELHOR IDADE;Feminino;C
+34;Informações sociais como sexo, idade, estado civil por exemplo;5 - MELHOR IDADE;Feminino;C
+34;Se possui smartphone?;5 - MELHOR IDADE;Feminino;C
+34;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);5 - MELHOR IDADE;Feminino;C
+34;Se possui filhos menores de 12 anos;5 - MELHOR IDADE;Feminino;C
+34;Se possui filhos menores de 18 anos;5 - MELHOR IDADE;Feminino;C
+34;Se possui casa própria ou se é alugada;5 - MELHOR IDADE;Feminino;C
+34;Sobre a profissão que exerce;5 - MELHOR IDADE;Feminino;C
+34;Se faz academia ou pratica esportes de modo geral;5 - MELHOR IDADE;Feminino;C
+34;Se gosta de ir em shows;5 - MELHOR IDADE;Feminino;C
+34;Se tem plano de saúde;5 - MELHOR IDADE;Feminino;C
+34;Se possui seguro de vida, de imóvel ou de carro;5 - MELHOR IDADE;Feminino;C
+34;Se gosta de viajar e com que frequência;5 - MELHOR IDADE;Feminino;C
+34;Sobre a sua operadora de telefonia (Claro, Vivo e etc);5 - MELHOR IDADE;Feminino;C
+34;Se o celular é pós pago ou pré pago;5 - MELHOR IDADE;Feminino;C
+34;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);5 - MELHOR IDADE;Feminino;C
+34;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);5 - MELHOR IDADE;Feminino;C
+35;Características do veículo (marca, ano e etc);2 - JOVEM;Feminino;C
+35;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Feminino;C
+35;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;C
+35;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;C
+35;Se possui animais de estimação;2 - JOVEM;Feminino;C
+35;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;C
+35;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;C
+35;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;C
+35;Se possui smartphone?;2 - JOVEM;Feminino;C
+35;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;C
+35;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;C
+35;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;C
+35;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;C
+35;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;C
+35;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;C
+35;Se os filhos estudam em colégio particular;2 - JOVEM;Feminino;C
+35;Sobre a profissão que exerce;2 - JOVEM;Feminino;C
+35;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;C
+35;Se gosta de ir em shows;2 - JOVEM;Feminino;C
+35;Se tem plano de saúde;2 - JOVEM;Feminino;C
+35;Se possui seguro de vida, de imóvel ou de carro;2 - JOVEM;Feminino;C
+35;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;C
+35;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;C
+35;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;C
+35;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;C
+35;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;C
+35;Eu não responderia à nenhuma destas questões;2 - JOVEM;Feminino;C
+36;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Feminino;E
+36;Se possui animais de estimação;1 - ADOLESCENTE;Feminino;E
+36;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Feminino;E
+36;Se costuma comprar parcelado ou à vista?;1 - ADOLESCENTE;Feminino;E
+36;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Feminino;E
+36;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Feminino;E
+37;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Feminino;B
+37;Se possui animais de estimação;4 - MADURO;Feminino;B
+37;Se possui filhos menores de 12 anos;4 - MADURO;Feminino;B
+37;Se possui filhos menores de 18 anos;4 - MADURO;Feminino;B
+37;Se possui casa própria ou se é alugada;4 - MADURO;Feminino;B
+37;Se os filhos estudam em colégio particular;4 - MADURO;Feminino;B
+37;Sobre a profissão que exerce;4 - MADURO;Feminino;B
+37;Se gosta de viajar e com que frequência;4 - MADURO;Feminino;B
+38;Características do veículo (marca, ano e etc);3 - ADULTO;Feminino;C
+38;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Feminino;C
+38;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Feminino;C
+38;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Feminino;C
+38;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Feminino;C
+38;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Feminino;C
+38;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Feminino;C
+38;Se possui filhos menores de 12 anos;3 - ADULTO;Feminino;C
+38;Se possui filhos menores de 18 anos;3 - ADULTO;Feminino;C
+38;Se possui casa própria ou se é alugada;3 - ADULTO;Feminino;C
+38;Se os filhos estudam em colégio particular;3 - ADULTO;Feminino;C
+38;Sobre a profissão que exerce;3 - ADULTO;Feminino;C
+38;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Feminino;C
+38;Se gosta de ir em shows;3 - ADULTO;Feminino;C
+38;Se tem plano de saúde;3 - ADULTO;Feminino;C
+38;Se possui seguro de vida, de imóvel ou de carro;3 - ADULTO;Feminino;C
+38;Se gosta de viajar e com que frequência;3 - ADULTO;Feminino;C
+38;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Feminino;C
+38;Se o celular é pós pago ou pré pago;3 - ADULTO;Feminino;C
+38;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Feminino;C
+38;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Feminino;C
+39;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);5 - MELHOR IDADE;Feminino;B
+39;Aniversário e outras datas festivas (Casamento por exemplo);5 - MELHOR IDADE;Feminino;B
+39;Se possui animais de estimação;5 - MELHOR IDADE;Feminino;B
+39;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;5 - MELHOR IDADE;Feminino;B
+39;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);5 - MELHOR IDADE;Feminino;B
+39;Se possui smartphone?;5 - MELHOR IDADE;Feminino;B
+39;Se costuma comprar parcelado ou à vista?;5 - MELHOR IDADE;Feminino;B
+39;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);5 - MELHOR IDADE;Feminino;B
+39;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);5 - MELHOR IDADE;Feminino;B
+39;Sobre a profissão que exerce;5 - MELHOR IDADE;Feminino;B
+39;Se faz academia ou pratica esportes de modo geral;5 - MELHOR IDADE;Feminino;B
+39;Se gosta de ir em shows;5 - MELHOR IDADE;Feminino;B
+39;Se tem plano de saúde;5 - MELHOR IDADE;Feminino;B
+39;Se gosta de viajar e com que frequência;5 - MELHOR IDADE;Feminino;B
+40;Se possui animais de estimação;4 - MADURO;Feminino;C
+41;Características do veículo (marca, ano e etc);3 - ADULTO;Feminino;B
+41;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Feminino;B
+41;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Feminino;B
+41;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Feminino;B
+41;Se possui animais de estimação;3 - ADULTO;Feminino;B
+41;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Feminino;B
+41;Se possui smartphone?;3 - ADULTO;Feminino;B
+41;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Feminino;B
+41;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Feminino;B
+41;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Feminino;B
+41;Se possui filhos menores de 12 anos;3 - ADULTO;Feminino;B
+41;Se possui filhos menores de 18 anos;3 - ADULTO;Feminino;B
+41;Se possui casa própria ou se é alugada;3 - ADULTO;Feminino;B
+41;Se os filhos estudam em colégio particular;3 - ADULTO;Feminino;B
+41;Sobre a profissão que exerce;3 - ADULTO;Feminino;B
+41;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Feminino;B
+41;Se gosta de ir em shows;3 - ADULTO;Feminino;B
+41;Se tem plano de saúde;3 - ADULTO;Feminino;B
+41;Se gosta de viajar e com que frequência;3 - ADULTO;Feminino;B
+41;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Feminino;B
+41;Se o celular é pós pago ou pré pago;3 - ADULTO;Feminino;B
+41;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Feminino;B
+41;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Feminino;B
+42;Eu não responderia à nenhuma destas questões;4 - MADURO;Feminino;D
+43;Eu não responderia à nenhuma destas questões;4 - MADURO;Feminino;C
+44;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;D
+44;Se possui animais de estimação;2 - JOVEM;Feminino;D
+44;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;D
+44;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;D
+44;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;D
+44;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;D
+45;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;E
+45;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;E
+45;Se possui animais de estimação;2 - JOVEM;Feminino;E
+45;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;E
+45;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;E
+45;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;E
+45;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;E
+45;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;E
+45;Se gosta de ir em shows;2 - JOVEM;Feminino;E
+45;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;E
+45;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;E
+46;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);1 - ADOLESCENTE;Feminino;E
+46;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Feminino;E
+46;Aniversário e outras datas festivas (Casamento por exemplo);1 - ADOLESCENTE;Feminino;E
+46;Se possui animais de estimação;1 - ADOLESCENTE;Feminino;E
+46;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Feminino;E
+46;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Feminino;E
+46;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);1 - ADOLESCENTE;Feminino;E
+46;Se possui smartphone?;1 - ADOLESCENTE;Feminino;E
+46;Se costuma comprar parcelado ou à vista?;1 - ADOLESCENTE;Feminino;E
+46;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Feminino;E
+46;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Feminino;E
+46;Se possui filhos menores de 12 anos;1 - ADOLESCENTE;Feminino;E
+46;Se possui filhos menores de 18 anos;1 - ADOLESCENTE;Feminino;E
+46;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Feminino;E
+46;Se os filhos estudam em colégio particular;1 - ADOLESCENTE;Feminino;E
+46;Sobre a profissão que exerce;1 - ADOLESCENTE;Feminino;E
+46;Se faz academia ou pratica esportes de modo geral;1 - ADOLESCENTE;Feminino;E
+46;Se gosta de ir em shows;1 - ADOLESCENTE;Feminino;E
+46;Se tem plano de saúde;1 - ADOLESCENTE;Feminino;E
+46;Se possui seguro de vida, de imóvel ou de carro;1 - ADOLESCENTE;Feminino;E
+46;Se gosta de viajar e com que frequência;1 - ADOLESCENTE;Feminino;E
+46;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Feminino;E
+46;Se o celular é pós pago ou pré pago;1 - ADOLESCENTE;Feminino;E
+46;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);1 - ADOLESCENTE;Feminino;E
+46;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);1 - ADOLESCENTE;Feminino;E
+47;Características do veículo (marca, ano e etc);3 - ADULTO;Feminino;C
+47;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Feminino;C
+47;Se possui smartphone?;3 - ADULTO;Feminino;C
+47;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Feminino;C
+47;Se os filhos estudam em colégio particular;3 - ADULTO;Feminino;C
+47;Se gosta de ir em shows;3 - ADULTO;Feminino;C
+47;Se tem plano de saúde;3 - ADULTO;Feminino;C
+47;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Feminino;C
+47;Se o celular é pós pago ou pré pago;3 - ADULTO;Feminino;C
+48;Características do veículo (marca, ano e etc);1 - ADOLESCENTE;Feminino;D
+48;Se possui animais de estimação;1 - ADOLESCENTE;Feminino;D
+48;Aniversário e outras datas festivas (Casamento por exemplo);1 - ADOLESCENTE;Feminino;D
+48;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Feminino;D
+48;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Feminino;D
+48;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Feminino;D
+48;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);1 - ADOLESCENTE;Feminino;D
+48;Se possui smartphone?;1 - ADOLESCENTE;Feminino;D
+48;Se costuma comprar parcelado ou à vista?;1 - ADOLESCENTE;Feminino;D
+48;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Feminino;D
+48;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Feminino;D
+48;Se possui filhos menores de 12 anos;1 - ADOLESCENTE;Feminino;D
+48;Se possui filhos menores de 18 anos;1 - ADOLESCENTE;Feminino;D
+48;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Feminino;D
+48;Se os filhos estudam em colégio particular;1 - ADOLESCENTE;Feminino;D
+48;Sobre a profissão que exerce;1 - ADOLESCENTE;Feminino;D
+48;Se faz academia ou pratica esportes de modo geral;1 - ADOLESCENTE;Feminino;D
+48;Se gosta de ir em shows;1 - ADOLESCENTE;Feminino;D
+48;Se tem plano de saúde;1 - ADOLESCENTE;Feminino;D
+48;Se possui seguro de vida, de imóvel ou de carro;1 - ADOLESCENTE;Feminino;D
+48;Se gosta de viajar e com que frequência;1 - ADOLESCENTE;Feminino;D
+48;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Feminino;D
+48;Se o celular é pós pago ou pré pago;1 - ADOLESCENTE;Feminino;D
+48;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);1 - ADOLESCENTE;Feminino;D
+49;Características do veículo (marca, ano e etc);2 - JOVEM;Feminino;E
+49;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Feminino;E
+49;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;E
+49;Se possui animais de estimação;2 - JOVEM;Feminino;E
+49;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;E
+49;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;E
+49;Se possui smartphone?;2 - JOVEM;Feminino;E
+49;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;E
+49;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;E
+49;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;E
+49;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;E
+49;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;E
+49;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;E
+49;Se tem plano de saúde;2 - JOVEM;Feminino;E
+49;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;E
+49;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;E
+49;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;E
+49;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;E
+50;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Feminino;E
+50;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;E
+50;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;E
+50;Se possui smartphone?;2 - JOVEM;Feminino;E
+50;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;E
+50;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;E
+50;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;E
+50;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;E
+50;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;E
+51;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;C
+51;Se possui animais de estimação;2 - JOVEM;Feminino;C
+51;Se possui smartphone?;2 - JOVEM;Feminino;C
+51;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;C
+51;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;C
+51;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;C
+51;Sobre a profissão que exerce;2 - JOVEM;Feminino;C
+51;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;C
+52;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Feminino;C
+52;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Feminino;C
+52;Se possui animais de estimação;4 - MADURO;Feminino;C
+52;Se possui smartphone?;4 - MADURO;Feminino;C
+52;Se costuma comprar parcelado ou à vista?;4 - MADURO;Feminino;C
+52;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Feminino;C
+52;Se possui casa própria ou se é alugada;4 - MADURO;Feminino;C
+52;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Feminino;C
+53;Características do veículo (marca, ano e etc);3 - ADULTO;Feminino;E
+53;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Feminino;E
+53;Se possui animais de estimação;3 - ADULTO;Feminino;E
+53;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Feminino;E
+53;Se possui smartphone?;3 - ADULTO;Feminino;E
+53;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Feminino;E
+53;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Feminino;E
+53;Se possui filhos menores de 12 anos;3 - ADULTO;Feminino;E
+53;Se possui filhos menores de 18 anos;3 - ADULTO;Feminino;E
+53;Se possui casa própria ou se é alugada;3 - ADULTO;Feminino;E
+53;Se os filhos estudam em colégio particular;3 - ADULTO;Feminino;E
+53;Sobre a profissão que exerce;3 - ADULTO;Feminino;E
+53;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Feminino;E
+53;Se gosta de ir em shows;3 - ADULTO;Feminino;E
+53;Se gosta de viajar e com que frequência;3 - ADULTO;Feminino;E
+53;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Feminino;E
+53;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Feminino;E
+54;Características do veículo (marca, ano e etc);2 - JOVEM;Feminino;C
+54;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;C
+54;Se possui animais de estimação;2 - JOVEM;Feminino;C
+54;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;C
+54;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;C
+54;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;C
+54;Se possui smartphone?;2 - JOVEM;Feminino;C
+54;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;C
+54;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;C
+54;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;C
+54;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;C
+54;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;C
+54;Se os filhos estudam em colégio particular;2 - JOVEM;Feminino;C
+54;Sobre a profissão que exerce;2 - JOVEM;Feminino;C
+54;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;C
+54;Se gosta de ir em shows;2 - JOVEM;Feminino;C
+54;Se tem plano de saúde;2 - JOVEM;Feminino;C
+54;Se possui seguro de vida, de imóvel ou de carro;2 - JOVEM;Feminino;C
+54;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;C
+54;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;C
+54;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;C
+54;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;C
+54;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;C
+55;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;E
+56;Eu não responderia à nenhuma destas questões;3 - ADULTO;Feminino;C
+57;Características do veículo (marca, ano e etc);4 - MADURO;Feminino;C
+57;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Feminino;C
+57;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Feminino;C
+57;Se possui animais de estimação;4 - MADURO;Feminino;C
+57;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Feminino;C
+57;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Feminino;C
+57;Se possui smartphone?;4 - MADURO;Feminino;C
+57;Se costuma comprar parcelado ou à vista?;4 - MADURO;Feminino;C
+57;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Feminino;C
+57;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Feminino;C
+57;Se possui filhos menores de 12 anos;4 - MADURO;Feminino;C
+57;Se possui filhos menores de 18 anos;4 - MADURO;Feminino;C
+57;Se possui casa própria ou se é alugada;4 - MADURO;Feminino;C
+57;Se os filhos estudam em colégio particular;4 - MADURO;Feminino;C
+57;Sobre a profissão que exerce;4 - MADURO;Feminino;C
+57;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Feminino;C
+57;Se gosta de ir em shows;4 - MADURO;Feminino;C
+57;Se tem plano de saúde;4 - MADURO;Feminino;C
+57;Se possui seguro de vida, de imóvel ou de carro;4 - MADURO;Feminino;C
+57;Se gosta de viajar e com que frequência;4 - MADURO;Feminino;C
+57;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Feminino;C
+58;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;C
+58;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;C
+58;Se possui animais de estimação;2 - JOVEM;Feminino;C
+58;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;C
+58;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;C
+58;Se possui smartphone?;2 - JOVEM;Feminino;C
+58;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;C
+58;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;C
+58;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;C
+58;Se gosta de ir em shows;2 - JOVEM;Feminino;C
+58;Se tem plano de saúde;2 - JOVEM;Feminino;C
+58;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;C
+58;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;C
+58;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;C
+58;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;C
+59;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Feminino;E
+59;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Feminino;E
+59;Se possui animais de estimação;3 - ADULTO;Feminino;E
+59;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Feminino;E
+59;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Feminino;E
+59;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Feminino;E
+59;Se possui smartphone?;3 - ADULTO;Feminino;E
+59;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Feminino;E
+59;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Feminino;E
+59;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Feminino;E
+59;Se possui filhos menores de 12 anos;3 - ADULTO;Feminino;E
+59;Se possui filhos menores de 18 anos;3 - ADULTO;Feminino;E
+59;Se possui casa própria ou se é alugada;3 - ADULTO;Feminino;E
+59;Se os filhos estudam em colégio particular;3 - ADULTO;Feminino;E
+59;Sobre a profissão que exerce;3 - ADULTO;Feminino;E
+59;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Feminino;E
+59;Se gosta de ir em shows;3 - ADULTO;Feminino;E
+59;Se tem plano de saúde;3 - ADULTO;Feminino;E
+59;Se possui seguro de vida, de imóvel ou de carro;3 - ADULTO;Feminino;E
+59;Se gosta de viajar e com que frequência;3 - ADULTO;Feminino;E
+59;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Feminino;E
+59;Se o celular é pós pago ou pré pago;3 - ADULTO;Feminino;E
+59;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Feminino;E
+59;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Feminino;E
+59;Eu não responderia à nenhuma destas questões;3 - ADULTO;Feminino;E
+60;Eu não responderia à nenhuma destas questões;5 - MELHOR IDADE;Feminino;C
+61;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Feminino;D
+61;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Feminino;D
+62;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Feminino;D
+62;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Feminino;D
+62;Se possui animais de estimação;3 - ADULTO;Feminino;D
+62;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Feminino;D
+62;Se possui smartphone?;3 - ADULTO;Feminino;D
+62;Se possui filhos menores de 12 anos;3 - ADULTO;Feminino;D
+62;Se possui filhos menores de 18 anos;3 - ADULTO;Feminino;D
+62;Sobre a profissão que exerce;3 - ADULTO;Feminino;D
+62;Se o celular é pós pago ou pré pago;3 - ADULTO;Feminino;D
+62;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Feminino;D
+63;Eu não responderia à nenhuma destas questões;4 - MADURO;Feminino;E
+64;Características do veículo (marca, ano e etc);2 - JOVEM;Feminino;B
+64;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;B
+64;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;B
+64;Se possui animais de estimação;2 - JOVEM;Feminino;B
+64;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;B
+64;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;B
+64;Se possui smartphone?;2 - JOVEM;Feminino;B
+64;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;B
+64;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;B
+64;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;B
+64;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;B
+64;Se os filhos estudam em colégio particular;2 - JOVEM;Feminino;B
+64;Sobre a profissão que exerce;2 - JOVEM;Feminino;B
+64;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;B
+64;Se gosta de ir em shows;2 - JOVEM;Feminino;B
+65;Características do veículo (marca, ano e etc);3 - ADULTO;Feminino;C
+65;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Feminino;C
+65;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Feminino;C
+65;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Feminino;C
+65;Se possui animais de estimação;3 - ADULTO;Feminino;C
+65;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Feminino;C
+65;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Feminino;C
+65;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Feminino;C
+65;Se possui smartphone?;3 - ADULTO;Feminino;C
+65;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Feminino;C
+65;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Feminino;C
+65;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Feminino;C
+65;Se possui filhos menores de 12 anos;3 - ADULTO;Feminino;C
+65;Se possui filhos menores de 18 anos;3 - ADULTO;Feminino;C
+65;Se possui casa própria ou se é alugada;3 - ADULTO;Feminino;C
+65;Se os filhos estudam em colégio particular;3 - ADULTO;Feminino;C
+65;Sobre a profissão que exerce;3 - ADULTO;Feminino;C
+65;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Feminino;C
+65;Se gosta de ir em shows;3 - ADULTO;Feminino;C
+65;Se tem plano de saúde;3 - ADULTO;Feminino;C
+65;Se possui seguro de vida, de imóvel ou de carro;3 - ADULTO;Feminino;C
+65;Se gosta de viajar e com que frequência;3 - ADULTO;Feminino;C
+65;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Feminino;C
+65;Se o celular é pós pago ou pré pago;3 - ADULTO;Feminino;C
+65;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Feminino;C
+65;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Feminino;C
+66;Se possui animais de estimação;2 - JOVEM;Feminino;E
+67;Eu não responderia à nenhuma destas questões;1 - ADOLESCENTE;Feminino;C
+68;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;D
+68;Se possui animais de estimação;2 - JOVEM;Feminino;D
+68;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;D
+68;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;D
+68;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;D
+68;Se possui smartphone?;2 - JOVEM;Feminino;D
+68;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;D
+68;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;D
+68;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;D
+68;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;D
+68;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;D
+68;Sobre a profissão que exerce;2 - JOVEM;Feminino;D
+68;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;D
+68;Se gosta de ir em shows;2 - JOVEM;Feminino;D
+68;Se tem plano de saúde;2 - JOVEM;Feminino;D
+68;Se possui seguro de vida, de imóvel ou de carro;2 - JOVEM;Feminino;D
+68;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;D
+68;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;D
+68;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;D
+68;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;D
+68;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;D
+69;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Feminino;B
+69;Se possui smartphone?;3 - ADULTO;Feminino;B
+70;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Feminino;E
+70;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Feminino;E
+70;Se possui animais de estimação;3 - ADULTO;Feminino;E
+70;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Feminino;E
+70;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Feminino;E
+70;Se possui smartphone?;3 - ADULTO;Feminino;E
+70;Se possui filhos menores de 12 anos;3 - ADULTO;Feminino;E
+71;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);1 - ADOLESCENTE;Feminino;C
+71;Se o celular é pós pago ou pré pago;1 - ADOLESCENTE;Feminino;C
+71;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Feminino;C
+71;Se gosta de ir em shows;1 - ADOLESCENTE;Feminino;C
+72;Características do veículo (marca, ano e etc);2 - JOVEM;Feminino;D
+72;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Feminino;D
+72;Se possui animais de estimação;2 - JOVEM;Feminino;D
+72;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;D
+72;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;D
+72;Se possui smartphone?;2 - JOVEM;Feminino;D
+72;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;D
+72;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;D
+72;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;D
+72;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;D
+72;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;D
+72;Sobre a profissão que exerce;2 - JOVEM;Feminino;D
+72;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;D
+72;Se gosta de ir em shows;2 - JOVEM;Feminino;D
+72;Se tem plano de saúde;2 - JOVEM;Feminino;D
+72;Se possui seguro de vida, de imóvel ou de carro;2 - JOVEM;Feminino;D
+72;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;D
+72;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;D
+72;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;D
+72;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;D
+73;Características do veículo (marca, ano e etc);3 - ADULTO;Feminino;E
+73;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Feminino;E
+73;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Feminino;E
+74;Características do veículo (marca, ano e etc);4 - MADURO;Feminino;C
+74;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Feminino;C
+74;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Feminino;C
+74;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Feminino;C
+74;Se possui animais de estimação;4 - MADURO;Feminino;C
+74;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Feminino;C
+74;Se possui smartphone?;4 - MADURO;Feminino;C
+74;Se costuma comprar parcelado ou à vista?;4 - MADURO;Feminino;C
+74;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Feminino;C
+74;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Feminino;C
+74;Se possui filhos menores de 12 anos;4 - MADURO;Feminino;C
+74;Se possui filhos menores de 18 anos;4 - MADURO;Feminino;C
+74;Sobre a profissão que exerce;4 - MADURO;Feminino;C
+74;Se gosta de viajar e com que frequência;4 - MADURO;Feminino;C
+74;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Feminino;C
+74;Se o celular é pós pago ou pré pago;4 - MADURO;Feminino;C
+74;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Feminino;C
+74;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Feminino;C
+75;Se possui smartphone?;2 - JOVEM;Feminino;E
+75;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;E
+75;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;E
+75;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;E
+75;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;E
+75;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;E
+76;Se possui animais de estimação;2 - JOVEM;Feminino;E
+76;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;E
+76;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;E
+76;Se possui smartphone?;2 - JOVEM;Feminino;E
+76;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;E
+76;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;E
+76;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;E
+76;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;E
+76;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;E
+76;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;E
+76;Se gosta de ir em shows;2 - JOVEM;Feminino;E
+76;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;E
+76;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;E
+76;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;E
+76;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;E
+77;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Feminino;B
+77;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Feminino;B
+77;Se possui filhos menores de 12 anos;3 - ADULTO;Feminino;B
+77;Se possui casa própria ou se é alugada;3 - ADULTO;Feminino;B
+77;Se os filhos estudam em colégio particular;3 - ADULTO;Feminino;B
+78;Características do veículo (marca, ano e etc);3 - ADULTO;Feminino;D
+78;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Feminino;D
+78;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Feminino;D
+78;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Feminino;D
+78;Se possui animais de estimação;3 - ADULTO;Feminino;D
+78;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Feminino;D
+78;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Feminino;D
+78;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Feminino;D
+78;Se possui smartphone?;3 - ADULTO;Feminino;D
+78;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Feminino;D
+78;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Feminino;D
+78;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Feminino;D
+78;Se possui filhos menores de 12 anos;3 - ADULTO;Feminino;D
+78;Se possui filhos menores de 18 anos;3 - ADULTO;Feminino;D
+78;Se possui casa própria ou se é alugada;3 - ADULTO;Feminino;D
+78;Se os filhos estudam em colégio particular;3 - ADULTO;Feminino;D
+78;Sobre a profissão que exerce;3 - ADULTO;Feminino;D
+78;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Feminino;D
+78;Se gosta de ir em shows;3 - ADULTO;Feminino;D
+78;Se tem plano de saúde;3 - ADULTO;Feminino;D
+78;Se possui seguro de vida, de imóvel ou de carro;3 - ADULTO;Feminino;D
+78;Se gosta de viajar e com que frequência;3 - ADULTO;Feminino;D
+78;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Feminino;D
+78;Se o celular é pós pago ou pré pago;3 - ADULTO;Feminino;D
+78;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Feminino;D
+78;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Feminino;D
+79;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Feminino;D
+79;Se possui animais de estimação;2 - JOVEM;Feminino;D
+79;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Feminino;D
+79;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;D
+79;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;D
+79;Se possui smartphone?;2 - JOVEM;Feminino;D
+79;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;D
+79;Se possui filhos menores de 12 anos;2 - JOVEM;Feminino;D
+79;Se possui filhos menores de 18 anos;2 - JOVEM;Feminino;D
+79;Se os filhos estudam em colégio particular;2 - JOVEM;Feminino;D
+79;Sobre a profissão que exerce;2 - JOVEM;Feminino;D
+79;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;D
+79;Se tem plano de saúde;2 - JOVEM;Feminino;D
+79;Se gosta de viajar e com que frequência;2 - JOVEM;Feminino;D
+79;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Feminino;D
+79;Se o celular é pós pago ou pré pago;2 - JOVEM;Feminino;D
+79;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Feminino;D
+79;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;D
+80;Se os filhos estudam em colégio particular;1 - ADOLESCENTE;Feminino;D
+80;Se gosta de ir em shows;1 - ADOLESCENTE;Feminino;D
+80;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Feminino;D
+80;Se faz academia ou pratica esportes de modo geral;1 - ADOLESCENTE;Feminino;D
+80;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);1 - ADOLESCENTE;Feminino;D
+80;Se possui filhos menores de 18 anos;1 - ADOLESCENTE;Feminino;D
+80;Sobre a profissão que exerce;1 - ADOLESCENTE;Feminino;D
+80;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Feminino;D
+80;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Feminino;D
+80;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Feminino;D
+80;Se gosta de viajar e com que frequência;1 - ADOLESCENTE;Feminino;D
+80;Se possui filhos menores de 12 anos;1 - ADOLESCENTE;Feminino;D
+80;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Feminino;D
+80;Se possui animais de estimação;1 - ADOLESCENTE;Feminino;D
+80;Se possui smartphone?;1 - ADOLESCENTE;Feminino;D
+80;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Feminino;D
+81;Características do veículo (marca, ano e etc);3 - ADULTO;Feminino;C
+81;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Feminino;C
+81;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Feminino;C
+81;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Feminino;C
+81;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Feminino;C
+81;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Feminino;C
+82;Se possui animais de estimação;2 - JOVEM;Feminino;C
+83;Se possui animais de estimação;1 - ADOLESCENTE;Feminino;D
+83;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Feminino;D
+84;Características do veículo (marca, ano e etc);1 - ADOLESCENTE;Feminino;D
+84;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);1 - ADOLESCENTE;Feminino;D
+84;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Feminino;D
+84;Se possui smartphone?;1 - ADOLESCENTE;Feminino;D
+84;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Feminino;D
+84;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Feminino;D
+84;Sobre a profissão que exerce;1 - ADOLESCENTE;Feminino;D
+84;Se gosta de ir em shows;1 - ADOLESCENTE;Feminino;D
+84;Se gosta de viajar e com que frequência;1 - ADOLESCENTE;Feminino;D
+84;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Feminino;D
+84;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);1 - ADOLESCENTE;Feminino;D
+85;Se possui animais de estimação;2 - JOVEM;Feminino;C
+85;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Feminino;C
+85;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;C
+86;Características do veículo (marca, ano e etc);4 - MADURO;Feminino;D
+86;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Feminino;D
+86;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Feminino;D
+86;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Feminino;D
+86;Se possui animais de estimação;4 - MADURO;Feminino;D
+86;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Feminino;D
+86;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Feminino;D
+86;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Feminino;D
+86;Se possui smartphone?;4 - MADURO;Feminino;D
+86;Se costuma comprar parcelado ou à vista?;4 - MADURO;Feminino;D
+86;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Feminino;D
+86;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Feminino;D
+86;Se possui filhos menores de 12 anos;4 - MADURO;Feminino;D
+86;Se possui filhos menores de 18 anos;4 - MADURO;Feminino;D
+86;Se possui casa própria ou se é alugada;4 - MADURO;Feminino;D
+86;Se os filhos estudam em colégio particular;4 - MADURO;Feminino;D
+86;Sobre a profissão que exerce;4 - MADURO;Feminino;D
+86;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Feminino;D
+86;Se gosta de ir em shows;4 - MADURO;Feminino;D
+86;Se tem plano de saúde;4 - MADURO;Feminino;D
+86;Se possui seguro de vida, de imóvel ou de carro;4 - MADURO;Feminino;D
+86;Se gosta de viajar e com que frequência;4 - MADURO;Feminino;D
+86;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Feminino;D
+86;Se o celular é pós pago ou pré pago;4 - MADURO;Feminino;D
+86;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Feminino;D
+86;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Feminino;D
+87;Características do veículo (marca, ano e etc);4 - MADURO;Feminino;C
+87;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Feminino;C
+87;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Feminino;C
+87;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Feminino;C
+87;Se possui animais de estimação;4 - MADURO;Feminino;C
+87;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Feminino;C
+87;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Feminino;C
+87;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Feminino;C
+87;Se possui smartphone?;4 - MADURO;Feminino;C
+87;Se costuma comprar parcelado ou à vista?;4 - MADURO;Feminino;C
+87;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Feminino;C
+87;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Feminino;C
+87;Se possui filhos menores de 12 anos;4 - MADURO;Feminino;C
+87;Se possui filhos menores de 18 anos;4 - MADURO;Feminino;C
+87;Se possui casa própria ou se é alugada;4 - MADURO;Feminino;C
+87;Se os filhos estudam em colégio particular;4 - MADURO;Feminino;C
+87;Sobre a profissão que exerce;4 - MADURO;Feminino;C
+87;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Feminino;C
+87;Se gosta de ir em shows;4 - MADURO;Feminino;C
+87;Se tem plano de saúde;4 - MADURO;Feminino;C
+87;Se possui seguro de vida, de imóvel ou de carro;4 - MADURO;Feminino;C
+87;Se gosta de viajar e com que frequência;4 - MADURO;Feminino;C
+87;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Feminino;C
+87;Se o celular é pós pago ou pré pago;4 - MADURO;Feminino;C
+87;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Feminino;C
+87;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Feminino;C
+88;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Feminino;D
+88;Se possui animais de estimação;3 - ADULTO;Feminino;D
+88;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Feminino;D
+88;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Feminino;D
+88;Se possui smartphone?;3 - ADULTO;Feminino;D
+88;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Feminino;D
+88;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Feminino;D
+88;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Feminino;D
+88;Se possui filhos menores de 12 anos;3 - ADULTO;Feminino;D
+88;Se possui filhos menores de 18 anos;3 - ADULTO;Feminino;D
+88;Se possui casa própria ou se é alugada;3 - ADULTO;Feminino;D
+88;Se os filhos estudam em colégio particular;3 - ADULTO;Feminino;D
+88;Sobre a profissão que exerce;3 - ADULTO;Feminino;D
+88;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Feminino;D
+88;Se gosta de ir em shows;3 - ADULTO;Feminino;D
+88;Se tem plano de saúde;3 - ADULTO;Feminino;D
+88;Se gosta de viajar e com que frequência;3 - ADULTO;Feminino;D
+88;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Feminino;D
+89;Se gosta de ir em shows;5 - MELHOR IDADE;Feminino;B
+90;Características do veículo (marca, ano e etc);4 - MADURO;Feminino;A
+90;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Feminino;A
+90;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Feminino;A
+90;Se possui animais de estimação;4 - MADURO;Feminino;A
+90;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Feminino;A
+90;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Feminino;A
+90;Se possui smartphone?;4 - MADURO;Feminino;A
+90;Se costuma comprar parcelado ou à vista?;4 - MADURO;Feminino;A
+90;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Feminino;A
+90;Se possui casa própria ou se é alugada;4 - MADURO;Feminino;A
+90;Se os filhos estudam em colégio particular;4 - MADURO;Feminino;A
+90;Sobre a profissão que exerce;4 - MADURO;Feminino;A
+90;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Feminino;A
+90;Se gosta de ir em shows;4 - MADURO;Feminino;A
+90;Se gosta de viajar e com que frequência;4 - MADURO;Feminino;A
+90;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Feminino;A
+90;Se o celular é pós pago ou pré pago;4 - MADURO;Feminino;A
+91;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Feminino;E
+91;Se possui animais de estimação;4 - MADURO;Feminino;E
+91;Se possui smartphone?;4 - MADURO;Feminino;E
+92;Se possui animais de estimação;2 - JOVEM;Feminino;C
+92;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Feminino;C
+92;Se possui smartphone?;2 - JOVEM;Feminino;C
+92;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Feminino;C
+92;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Feminino;C
+92;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Feminino;C
+92;Se possui casa própria ou se é alugada;2 - JOVEM;Feminino;C
+92;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Feminino;C
+92;Se gosta de ir em shows;2 - JOVEM;Feminino;C
+92;Se tem plano de saúde;2 - JOVEM;Feminino;C
+92;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Feminino;C
+93;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Feminino;D
+94;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Feminino;C
+94;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Feminino;C
+94;Se costuma comprar parcelado ou à vista?;4 - MADURO;Feminino;C
+94;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Feminino;C
+95;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Feminino;C
+95;Se gosta de ir em shows;3 - ADULTO;Feminino;C
+95;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Feminino;C
+96;Se possui smartphone?;4 - MADURO;Feminino;C
+97;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;C
+97;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;C
+97;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;C
+98;Se possui smartphone?;2 - JOVEM;Masculino;C
+99;Eu não responderia à nenhuma destas questões;1 - ADOLESCENTE;Masculino;E
+100;Características do veículo (marca, ano e etc);2 - JOVEM;Masculino;C
+100;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;C
+100;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;C
+100;Se possui animais de estimação;2 - JOVEM;Masculino;C
+100;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;C
+100;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Masculino;C
+100;Se possui smartphone?;2 - JOVEM;Masculino;C
+100;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;C
+100;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;C
+100;Se possui filhos menores de 12 anos;2 - JOVEM;Masculino;C
+100;Se possui filhos menores de 18 anos;2 - JOVEM;Masculino;C
+100;Se possui casa própria ou se é alugada;2 - JOVEM;Masculino;C
+100;Se os filhos estudam em colégio particular;2 - JOVEM;Masculino;C
+100;Sobre a profissão que exerce;2 - JOVEM;Masculino;C
+100;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Masculino;C
+100;Se gosta de ir em shows;2 - JOVEM;Masculino;C
+100;Se gosta de viajar e com que frequência;2 - JOVEM;Masculino;C
+100;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;C
+100;Se o celular é pós pago ou pré pago;2 - JOVEM;Masculino;C
+100;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Masculino;C
+100;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Masculino;C
+101;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;B
+101;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;B
+101;Se possui animais de estimação;3 - ADULTO;Masculino;B
+101;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;B
+101;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Masculino;B
+101;Se possui smartphone?;3 - ADULTO;Masculino;B
+101;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Masculino;B
+101;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;B
+101;Se possui filhos menores de 12 anos;3 - ADULTO;Masculino;B
+101;Se possui filhos menores de 18 anos;3 - ADULTO;Masculino;B
+101;Se possui casa própria ou se é alugada;3 - ADULTO;Masculino;B
+101;Se os filhos estudam em colégio particular;3 - ADULTO;Masculino;B
+101;Sobre a profissão que exerce;3 - ADULTO;Masculino;B
+101;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Masculino;B
+101;Se gosta de ir em shows;3 - ADULTO;Masculino;B
+101;Se gosta de viajar e com que frequência;3 - ADULTO;Masculino;B
+101;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;B
+102;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Masculino;B
+102;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;B
+102;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;B
+102;Se possui smartphone?;3 - ADULTO;Masculino;B
+102;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;B
+102;Se tem plano de saúde;3 - ADULTO;Masculino;B
+102;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;B
+102;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Masculino;B
+103;Características do veículo (marca, ano e etc);4 - MADURO;Masculino;C
+103;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Masculino;C
+103;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Masculino;C
+103;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Masculino;C
+103;Se costuma comprar parcelado ou à vista?;4 - MADURO;Masculino;C
+103;Se possui filhos menores de 18 anos;4 - MADURO;Masculino;C
+103;Se possui casa própria ou se é alugada;4 - MADURO;Masculino;C
+103;Se os filhos estudam em colégio particular;4 - MADURO;Masculino;C
+103;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Masculino;C
+104;Características do veículo (marca, ano e etc);2 - JOVEM;Masculino;C
+104;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;C
+104;Se possui animais de estimação;2 - JOVEM;Masculino;C
+104;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;C
+104;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Masculino;C
+104;Se possui smartphone?;2 - JOVEM;Masculino;C
+104;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;C
+104;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;C
+104;Sobre a profissão que exerce;2 - JOVEM;Masculino;C
+104;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Masculino;C
+104;Se gosta de ir em shows;2 - JOVEM;Masculino;C
+104;Se tem plano de saúde;2 - JOVEM;Masculino;C
+104;Se gosta de viajar e com que frequência;2 - JOVEM;Masculino;C
+104;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;C
+104;Se o celular é pós pago ou pré pago;2 - JOVEM;Masculino;C
+104;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Masculino;C
+105;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;C
+105;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Masculino;C
+105;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;C
+105;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Masculino;C
+105;Se possui smartphone?;3 - ADULTO;Masculino;C
+105;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Masculino;C
+105;Sobre a profissão que exerce;3 - ADULTO;Masculino;C
+105;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;C
+105;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Masculino;C
+106;Aniversário e outras datas festivas (Casamento por exemplo);1 - ADOLESCENTE;Masculino;E
+106;Se possui smartphone?;1 - ADOLESCENTE;Masculino;E
+106;Se possui filhos menores de 12 anos;1 - ADOLESCENTE;Masculino;E
+106;Se possui filhos menores de 18 anos;1 - ADOLESCENTE;Masculino;E
+106;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Masculino;E
+106;Se tem plano de saúde;1 - ADOLESCENTE;Masculino;E
+106;Se possui seguro de vida, de imóvel ou de carro;1 - ADOLESCENTE;Masculino;E
+106;Se gosta de viajar e com que frequência;1 - ADOLESCENTE;Masculino;E
+106;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Masculino;E
+107;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Masculino;E
+108;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Masculino;E
+108;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;E
+108;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;E
+108;Se possui smartphone?;3 - ADULTO;Masculino;E
+108;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Masculino;E
+108;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Masculino;E
+108;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;E
+108;Se possui filhos menores de 12 anos;3 - ADULTO;Masculino;E
+108;Se possui filhos menores de 18 anos;3 - ADULTO;Masculino;E
+108;Se possui casa própria ou se é alugada;3 - ADULTO;Masculino;E
+108;Se tem plano de saúde;3 - ADULTO;Masculino;E
+108;Se gosta de viajar e com que frequência;3 - ADULTO;Masculino;E
+108;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;E
+108;Se o celular é pós pago ou pré pago;3 - ADULTO;Masculino;E
+108;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Masculino;E
+108;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Masculino;E
+109;Se possui animais de estimação;2 - JOVEM;Masculino;D
+110;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Masculino;D
+111;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Masculino;C
+111;Se possui animais de estimação;4 - MADURO;Masculino;C
+111;Se possui smartphone?;4 - MADURO;Masculino;C
+111;Se possui casa própria ou se é alugada;4 - MADURO;Masculino;C
+111;Sobre a profissão que exerce;4 - MADURO;Masculino;C
+111;Se gosta de ir em shows;4 - MADURO;Masculino;C
+111;Se gosta de viajar e com que frequência;4 - MADURO;Masculino;C
+111;Se o celular é pós pago ou pré pago;4 - MADURO;Masculino;C
+112;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);1 - ADOLESCENTE;Masculino;D
+113;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;E
+113;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Masculino;E
+113;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;E
+113;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;E
+113;Se possui animais de estimação;3 - ADULTO;Masculino;E
+113;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;E
+113;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Masculino;E
+113;Se possui smartphone?;3 - ADULTO;Masculino;E
+113;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Masculino;E
+113;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Masculino;E
+113;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;E
+113;Se possui filhos menores de 12 anos;3 - ADULTO;Masculino;E
+113;Se possui filhos menores de 18 anos;3 - ADULTO;Masculino;E
+113;Se possui casa própria ou se é alugada;3 - ADULTO;Masculino;E
+113;Se os filhos estudam em colégio particular;3 - ADULTO;Masculino;E
+113;Sobre a profissão que exerce;3 - ADULTO;Masculino;E
+113;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Masculino;E
+113;Se gosta de ir em shows;3 - ADULTO;Masculino;E
+113;Se tem plano de saúde;3 - ADULTO;Masculino;E
+113;Se possui seguro de vida, de imóvel ou de carro;3 - ADULTO;Masculino;E
+113;Se gosta de viajar e com que frequência;3 - ADULTO;Masculino;E
+113;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;E
+113;Se o celular é pós pago ou pré pago;3 - ADULTO;Masculino;E
+113;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Masculino;E
+113;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Masculino;E
+114;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Masculino;C
+114;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;C
+114;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;C
+114;Se possui animais de estimação;3 - ADULTO;Masculino;C
+114;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;C
+114;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Masculino;C
+114;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Masculino;C
+114;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Masculino;C
+114;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Masculino;C
+114;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;C
+114;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Masculino;C
+114;Se gosta de ir em shows;3 - ADULTO;Masculino;C
+114;Se tem plano de saúde;3 - ADULTO;Masculino;C
+114;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;C
+115;Características do veículo (marca, ano e etc);4 - MADURO;Masculino;C
+115;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Masculino;C
+115;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Masculino;C
+115;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Masculino;C
+115;Se possui animais de estimação;4 - MADURO;Masculino;C
+115;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Masculino;C
+115;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Masculino;C
+115;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Masculino;C
+115;Se possui smartphone?;4 - MADURO;Masculino;C
+115;Se costuma comprar parcelado ou à vista?;4 - MADURO;Masculino;C
+115;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Masculino;C
+115;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Masculino;C
+115;Se possui filhos menores de 12 anos;4 - MADURO;Masculino;C
+115;Se possui filhos menores de 18 anos;4 - MADURO;Masculino;C
+115;Se possui casa própria ou se é alugada;4 - MADURO;Masculino;C
+115;Se os filhos estudam em colégio particular;4 - MADURO;Masculino;C
+115;Sobre a profissão que exerce;4 - MADURO;Masculino;C
+115;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Masculino;C
+115;Se gosta de ir em shows;4 - MADURO;Masculino;C
+115;Se tem plano de saúde;4 - MADURO;Masculino;C
+115;Se possui seguro de vida, de imóvel ou de carro;4 - MADURO;Masculino;C
+115;Se gosta de viajar e com que frequência;4 - MADURO;Masculino;C
+115;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Masculino;C
+115;Se o celular é pós pago ou pré pago;4 - MADURO;Masculino;C
+115;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Masculino;C
+115;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Masculino;C
+116;Características do veículo (marca, ano e etc);1 - ADOLESCENTE;Masculino;E
+117;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;C
+117;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;C
+117;Se possui smartphone?;3 - ADULTO;Masculino;C
+117;Sobre a profissão que exerce;3 - ADULTO;Masculino;C
+117;Se gosta de ir em shows;3 - ADULTO;Masculino;C
+117;Se gosta de viajar e com que frequência;3 - ADULTO;Masculino;C
+118;Se possui animais de estimação;4 - MADURO;Masculino;D
+118;Se possui smartphone?;4 - MADURO;Masculino;D
+118;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Masculino;D
+118;Se gosta de ir em shows;4 - MADURO;Masculino;D
+119;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;E
+119;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Masculino;E
+120;Características do veículo (marca, ano e etc);1 - ADOLESCENTE;Masculino;E
+120;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);1 - ADOLESCENTE;Masculino;E
+120;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Masculino;E
+120;Se possui animais de estimação;1 - ADOLESCENTE;Masculino;E
+120;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Masculino;E
+120;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Masculino;E
+120;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);1 - ADOLESCENTE;Masculino;E
+120;Se possui smartphone?;1 - ADOLESCENTE;Masculino;E
+120;Se costuma comprar parcelado ou à vista?;1 - ADOLESCENTE;Masculino;E
+120;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Masculino;E
+120;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Masculino;E
+120;Se possui filhos menores de 12 anos;1 - ADOLESCENTE;Masculino;E
+120;Se possui filhos menores de 18 anos;1 - ADOLESCENTE;Masculino;E
+120;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Masculino;E
+120;Se faz academia ou pratica esportes de modo geral;1 - ADOLESCENTE;Masculino;E
+120;Se gosta de ir em shows;1 - ADOLESCENTE;Masculino;E
+120;Se tem plano de saúde;1 - ADOLESCENTE;Masculino;E
+120;Se possui seguro de vida, de imóvel ou de carro;1 - ADOLESCENTE;Masculino;E
+120;Se gosta de viajar e com que frequência;1 - ADOLESCENTE;Masculino;E
+120;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Masculino;E
+120;Se o celular é pós pago ou pré pago;1 - ADOLESCENTE;Masculino;E
+120;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);1 - ADOLESCENTE;Masculino;E
+120;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);1 - ADOLESCENTE;Masculino;E
+121;Características do veículo (marca, ano e etc);1 - ADOLESCENTE;Masculino;C
+121;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);1 - ADOLESCENTE;Masculino;C
+121;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Masculino;C
+121;Se possui animais de estimação;1 - ADOLESCENTE;Masculino;C
+121;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Masculino;C
+121;Se possui smartphone?;1 - ADOLESCENTE;Masculino;C
+121;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Masculino;C
+121;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Masculino;C
+121;Sobre a profissão que exerce;1 - ADOLESCENTE;Masculino;C
+121;Se faz academia ou pratica esportes de modo geral;1 - ADOLESCENTE;Masculino;C
+121;Se gosta de ir em shows;1 - ADOLESCENTE;Masculino;C
+121;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Masculino;C
+121;Se o celular é pós pago ou pré pago;1 - ADOLESCENTE;Masculino;C
+121;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);1 - ADOLESCENTE;Masculino;C
+122;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;C
+122;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Masculino;C
+122;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;C
+122;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;C
+122;Se possui animais de estimação;3 - ADULTO;Masculino;C
+122;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;C
+122;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Masculino;C
+122;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Masculino;C
+122;Se possui smartphone?;3 - ADULTO;Masculino;C
+122;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Masculino;C
+122;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Masculino;C
+122;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;C
+122;Se possui filhos menores de 12 anos;3 - ADULTO;Masculino;C
+122;Se possui filhos menores de 18 anos;3 - ADULTO;Masculino;C
+122;Se possui casa própria ou se é alugada;3 - ADULTO;Masculino;C
+122;Se os filhos estudam em colégio particular;3 - ADULTO;Masculino;C
+122;Sobre a profissão que exerce;3 - ADULTO;Masculino;C
+122;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Masculino;C
+122;Se gosta de ir em shows;3 - ADULTO;Masculino;C
+122;Se tem plano de saúde;3 - ADULTO;Masculino;C
+122;Se possui seguro de vida, de imóvel ou de carro;3 - ADULTO;Masculino;C
+122;Se gosta de viajar e com que frequência;3 - ADULTO;Masculino;C
+122;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;C
+122;Se o celular é pós pago ou pré pago;3 - ADULTO;Masculino;C
+122;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Masculino;C
+122;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Masculino;C
+122;Eu não responderia à nenhuma destas questões;3 - ADULTO;Masculino;C
+123;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;E
+123;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Masculino;E
+123;Se possui smartphone?;2 - JOVEM;Masculino;E
+123;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Masculino;E
+123;Sobre a profissão que exerce;2 - JOVEM;Masculino;E
+123;Se gosta de ir em shows;2 - JOVEM;Masculino;E
+123;Se tem plano de saúde;2 - JOVEM;Masculino;E
+123;Se gosta de viajar e com que frequência;2 - JOVEM;Masculino;E
+123;Se o celular é pós pago ou pré pago;2 - JOVEM;Masculino;E
+123;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Masculino;E
+124;Características do veículo (marca, ano e etc);4 - MADURO;Masculino;D
+124;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Masculino;D
+124;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Masculino;D
+124;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Masculino;D
+124;Se possui smartphone?;4 - MADURO;Masculino;D
+124;Se costuma comprar parcelado ou à vista?;4 - MADURO;Masculino;D
+124;Se os filhos estudam em colégio particular;4 - MADURO;Masculino;D
+124;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Masculino;D
+124;Se o celular é pós pago ou pré pago;4 - MADURO;Masculino;D
+124;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Masculino;D
+125;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Masculino;B
+125;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Masculino;B
+125;Se possui smartphone?;4 - MADURO;Masculino;B
+125;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Masculino;B
+126;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;C
+126;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Masculino;C
+126;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;C
+126;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;C
+127;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;E
+127;Se possui animais de estimação;2 - JOVEM;Masculino;E
+127;Se possui smartphone?;2 - JOVEM;Masculino;E
+127;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;E
+128;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;D
+128;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;D
+128;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;D
+128;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;D
+128;Se possui smartphone?;3 - ADULTO;Masculino;D
+128;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;D
+128;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Masculino;D
+129;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;E
+129;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Masculino;E
+129;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;E
+129;Se possui animais de estimação;3 - ADULTO;Masculino;E
+129;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;E
+129;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Masculino;E
+129;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Masculino;E
+129;Se possui smartphone?;3 - ADULTO;Masculino;E
+129;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Masculino;E
+129;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Masculino;E
+129;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;E
+129;Se possui filhos menores de 12 anos;3 - ADULTO;Masculino;E
+129;Se possui filhos menores de 18 anos;3 - ADULTO;Masculino;E
+129;Se possui casa própria ou se é alugada;3 - ADULTO;Masculino;E
+129;Se os filhos estudam em colégio particular;3 - ADULTO;Masculino;E
+129;Sobre a profissão que exerce;3 - ADULTO;Masculino;E
+129;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Masculino;E
+129;Se gosta de ir em shows;3 - ADULTO;Masculino;E
+129;Se tem plano de saúde;3 - ADULTO;Masculino;E
+129;Se possui seguro de vida, de imóvel ou de carro;3 - ADULTO;Masculino;E
+129;Se gosta de viajar e com que frequência;3 - ADULTO;Masculino;E
+129;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;E
+129;Se o celular é pós pago ou pré pago;3 - ADULTO;Masculino;E
+129;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Masculino;E
+129;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Masculino;E
+130;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);1 - ADOLESCENTE;Masculino;E
+130;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Masculino;E
+130;Aniversário e outras datas festivas (Casamento por exemplo);1 - ADOLESCENTE;Masculino;E
+130;Se possui animais de estimação;1 - ADOLESCENTE;Masculino;E
+130;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Masculino;E
+130;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Masculino;E
+130;Se possui smartphone?;1 - ADOLESCENTE;Masculino;E
+130;Se costuma comprar parcelado ou à vista?;1 - ADOLESCENTE;Masculino;E
+130;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Masculino;E
+130;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Masculino;E
+130;Se tem plano de saúde;1 - ADOLESCENTE;Masculino;E
+130;Se possui seguro de vida, de imóvel ou de carro;1 - ADOLESCENTE;Masculino;E
+130;Se gosta de viajar e com que frequência;1 - ADOLESCENTE;Masculino;E
+130;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Masculino;E
+130;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);1 - ADOLESCENTE;Masculino;E
+131;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Masculino;E
+132;Características do veículo (marca, ano e etc);2 - JOVEM;Masculino;E
+133;Eu não responderia à nenhuma destas questões;1 - ADOLESCENTE;Masculino;E
+134;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;B
+134;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;B
+134;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Masculino;B
+134;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Masculino;B
+134;Se possui smartphone?;2 - JOVEM;Masculino;B
+134;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;B
+134;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;B
+134;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Masculino;B
+134;Se gosta de ir em shows;2 - JOVEM;Masculino;B
+134;Se gosta de viajar e com que frequência;2 - JOVEM;Masculino;B
+134;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;B
+134;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Masculino;B
+134;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Masculino;B
+135;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;E
+135;Se gosta de ir em shows;2 - JOVEM;Masculino;E
+135;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;E
+136;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;C
+136;Se possui animais de estimação;3 - ADULTO;Masculino;C
+136;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;C
+136;Se possui smartphone?;3 - ADULTO;Masculino;C
+136;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;C
+137;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;D
+137;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;D
+137;Se possui animais de estimação;2 - JOVEM;Masculino;D
+137;Se possui smartphone?;2 - JOVEM;Masculino;D
+137;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;D
+137;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;D
+137;Se gosta de ir em shows;2 - JOVEM;Masculino;D
+138;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;E
+138;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;E
+138;Se possui smartphone?;2 - JOVEM;Masculino;E
+138;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;E
+138;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;E
+138;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;E
+138;Se o celular é pós pago ou pré pago;2 - JOVEM;Masculino;E
+138;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Masculino;E
+139;Aniversário e outras datas festivas (Casamento por exemplo);5 - MELHOR IDADE;Masculino;E
+139;Se possui smartphone?;5 - MELHOR IDADE;Masculino;E
+139;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);5 - MELHOR IDADE;Masculino;E
+139;Se possui casa própria ou se é alugada;5 - MELHOR IDADE;Masculino;E
+139;Se gosta de viajar e com que frequência;5 - MELHOR IDADE;Masculino;E
+139;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);5 - MELHOR IDADE;Masculino;E
+140;Se possui animais de estimação;2 - JOVEM;Masculino;C
+141;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Masculino;D
+141;Se possui smartphone?;4 - MADURO;Masculino;D
+142;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Masculino;B
+142;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Masculino;B
+142;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Masculino;B
+142;Se possui smartphone?;4 - MADURO;Masculino;B
+142;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Masculino;B
+142;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Masculino;B
+142;Se possui casa própria ou se é alugada;4 - MADURO;Masculino;B
+142;Sobre a profissão que exerce;4 - MADURO;Masculino;B
+142;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Masculino;B
+142;Se tem plano de saúde;4 - MADURO;Masculino;B
+142;Se possui seguro de vida, de imóvel ou de carro;4 - MADURO;Masculino;B
+142;Se gosta de viajar e com que frequência;4 - MADURO;Masculino;B
+142;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Masculino;B
+142;Se o celular é pós pago ou pré pago;4 - MADURO;Masculino;B
+142;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Masculino;B
+142;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Masculino;B
+143;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Masculino;C
+143;Se faz academia ou pratica esportes de modo geral;1 - ADOLESCENTE;Masculino;C
+143;Se gosta de viajar e com que frequência;1 - ADOLESCENTE;Masculino;C
+144;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Masculino;C
+144;Se possui smartphone?;4 - MADURO;Masculino;C
+144;Se possui filhos menores de 12 anos;4 - MADURO;Masculino;C
+144;Se possui filhos menores de 18 anos;4 - MADURO;Masculino;C
+145;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Masculino;D
+145;Aniversário e outras datas festivas (Casamento por exemplo);1 - ADOLESCENTE;Masculino;D
+145;Se possui animais de estimação;1 - ADOLESCENTE;Masculino;D
+145;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Masculino;D
+145;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Masculino;D
+145;Se possui smartphone?;1 - ADOLESCENTE;Masculino;D
+145;Se costuma comprar parcelado ou à vista?;1 - ADOLESCENTE;Masculino;D
+145;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Masculino;D
+145;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Masculino;D
+145;Se possui filhos menores de 12 anos;1 - ADOLESCENTE;Masculino;D
+145;Se possui filhos menores de 18 anos;1 - ADOLESCENTE;Masculino;D
+145;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Masculino;D
+145;Se os filhos estudam em colégio particular;1 - ADOLESCENTE;Masculino;D
+145;Sobre a profissão que exerce;1 - ADOLESCENTE;Masculino;D
+145;Se faz academia ou pratica esportes de modo geral;1 - ADOLESCENTE;Masculino;D
+145;Se gosta de ir em shows;1 - ADOLESCENTE;Masculino;D
+145;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);1 - ADOLESCENTE;Masculino;D
+145;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);1 - ADOLESCENTE;Masculino;D
+146;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;B
+146;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;B
+146;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Masculino;B
+146;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Masculino;B
+146;Se possui smartphone?;3 - ADULTO;Masculino;B
+146;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Masculino;B
+146;Se possui filhos menores de 12 anos;3 - ADULTO;Masculino;B
+146;Se possui filhos menores de 18 anos;3 - ADULTO;Masculino;B
+146;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;B
+146;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Masculino;B
+147;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;E
+147;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Masculino;E
+147;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;E
+147;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Masculino;E
+147;Se possui smartphone?;2 - JOVEM;Masculino;E
+147;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;E
+148;Características do veículo (marca, ano e etc);2 - JOVEM;Masculino;E
+148;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;E
+148;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;E
+148;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Masculino;E
+148;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;E
+148;Se possui smartphone?;2 - JOVEM;Masculino;E
+148;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Masculino;E
+148;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;E
+148;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;E
+148;Se possui filhos menores de 12 anos;2 - JOVEM;Masculino;E
+148;Se possui filhos menores de 18 anos;2 - JOVEM;Masculino;E
+148;Se gosta de ir em shows;2 - JOVEM;Masculino;E
+148;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;E
+148;Se o celular é pós pago ou pré pago;2 - JOVEM;Masculino;E
+148;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Masculino;E
+149;Características do veículo (marca, ano e etc);2 - JOVEM;Masculino;C
+149;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;C
+149;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;C
+149;Se possui animais de estimação;2 - JOVEM;Masculino;C
+149;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;C
+149;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Masculino;C
+149;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Masculino;C
+149;Se possui smartphone?;2 - JOVEM;Masculino;C
+149;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Masculino;C
+149;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;C
+149;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;C
+149;Se possui filhos menores de 12 anos;2 - JOVEM;Masculino;C
+149;Se possui filhos menores de 18 anos;2 - JOVEM;Masculino;C
+149;Se possui casa própria ou se é alugada;2 - JOVEM;Masculino;C
+149;Se os filhos estudam em colégio particular;2 - JOVEM;Masculino;C
+149;Sobre a profissão que exerce;2 - JOVEM;Masculino;C
+149;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Masculino;C
+149;Se gosta de ir em shows;2 - JOVEM;Masculino;C
+149;Se tem plano de saúde;2 - JOVEM;Masculino;C
+149;Se gosta de viajar e com que frequência;2 - JOVEM;Masculino;C
+149;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;C
+149;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Masculino;C
+149;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Masculino;C
+150;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;B
+150;Se possui animais de estimação;3 - ADULTO;Masculino;B
+150;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Masculino;B
+150;Se possui smartphone?;3 - ADULTO;Masculino;B
+150;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Masculino;B
+150;Se gosta de ir em shows;3 - ADULTO;Masculino;B
+150;Se tem plano de saúde;3 - ADULTO;Masculino;B
+150;Se gosta de viajar e com que frequência;3 - ADULTO;Masculino;B
+150;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;B
+150;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Masculino;B
+151;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Masculino;D
+151;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Masculino;D
+151;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Masculino;D
+151;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Masculino;D
+151;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Masculino;D
+151;Se o celular é pós pago ou pré pago;4 - MADURO;Masculino;D
+152;Se possui animais de estimação;3 - ADULTO;Masculino;E
+152;Se possui smartphone?;3 - ADULTO;Masculino;E
+152;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Masculino;E
+153;Se possui animais de estimação;2 - JOVEM;Masculino;D
+153;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;D
+153;Se possui smartphone?;2 - JOVEM;Masculino;D
+154;Características do veículo (marca, ano e etc);4 - MADURO;Masculino;B
+154;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Masculino;B
+154;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Masculino;B
+154;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Masculino;B
+154;Se possui animais de estimação;4 - MADURO;Masculino;B
+154;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Masculino;B
+154;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Masculino;B
+154;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Masculino;B
+154;Se possui smartphone?;4 - MADURO;Masculino;B
+154;Se costuma comprar parcelado ou à vista?;4 - MADURO;Masculino;B
+154;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Masculino;B
+154;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Masculino;B
+154;Se possui filhos menores de 12 anos;4 - MADURO;Masculino;B
+154;Se possui filhos menores de 18 anos;4 - MADURO;Masculino;B
+154;Se possui casa própria ou se é alugada;4 - MADURO;Masculino;B
+154;Se os filhos estudam em colégio particular;4 - MADURO;Masculino;B
+154;Sobre a profissão que exerce;4 - MADURO;Masculino;B
+154;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Masculino;B
+154;Se gosta de ir em shows;4 - MADURO;Masculino;B
+154;Se tem plano de saúde;4 - MADURO;Masculino;B
+154;Se possui seguro de vida, de imóvel ou de carro;4 - MADURO;Masculino;B
+154;Se gosta de viajar e com que frequência;4 - MADURO;Masculino;B
+154;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Masculino;B
+154;Se o celular é pós pago ou pré pago;4 - MADURO;Masculino;B
+154;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Masculino;B
+154;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Masculino;B
+155;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;D
+155;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Masculino;D
+155;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;D
+155;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;D
+155;Se possui animais de estimação;3 - ADULTO;Masculino;D
+155;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Masculino;D
+156;Eu não responderia à nenhuma destas questões;3 - ADULTO;Masculino;D
+157;Características do veículo (marca, ano e etc);4 - MADURO;Masculino;D
+157;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Masculino;D
+157;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Masculino;D
+157;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Masculino;D
+157;Se possui animais de estimação;4 - MADURO;Masculino;D
+157;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Masculino;D
+157;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Masculino;D
+157;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Masculino;D
+157;Se possui smartphone?;4 - MADURO;Masculino;D
+157;Se costuma comprar parcelado ou à vista?;4 - MADURO;Masculino;D
+157;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Masculino;D
+157;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Masculino;D
+157;Se possui filhos menores de 12 anos;4 - MADURO;Masculino;D
+157;Se possui filhos menores de 18 anos;4 - MADURO;Masculino;D
+157;Se possui casa própria ou se é alugada;4 - MADURO;Masculino;D
+157;Se os filhos estudam em colégio particular;4 - MADURO;Masculino;D
+157;Sobre a profissão que exerce;4 - MADURO;Masculino;D
+157;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Masculino;D
+157;Se gosta de ir em shows;4 - MADURO;Masculino;D
+157;Se tem plano de saúde;4 - MADURO;Masculino;D
+157;Se possui seguro de vida, de imóvel ou de carro;4 - MADURO;Masculino;D
+157;Se gosta de viajar e com que frequência;4 - MADURO;Masculino;D
+157;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Masculino;D
+157;Se o celular é pós pago ou pré pago;4 - MADURO;Masculino;D
+157;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Masculino;D
+157;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Masculino;D
+157;Eu não responderia à nenhuma destas questões;4 - MADURO;Masculino;D
+158;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;B
+158;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;B
+158;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;B
+158;Se possui animais de estimação;3 - ADULTO;Masculino;B
+158;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;B
+158;Se possui smartphone?;3 - ADULTO;Masculino;B
+158;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;B
+158;Se possui filhos menores de 12 anos;3 - ADULTO;Masculino;B
+158;Se possui filhos menores de 18 anos;3 - ADULTO;Masculino;B
+158;Se possui casa própria ou se é alugada;3 - ADULTO;Masculino;B
+158;Se os filhos estudam em colégio particular;3 - ADULTO;Masculino;B
+158;Sobre a profissão que exerce;3 - ADULTO;Masculino;B
+158;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Masculino;B
+158;Se gosta de ir em shows;3 - ADULTO;Masculino;B
+158;Se tem plano de saúde;3 - ADULTO;Masculino;B
+158;Se gosta de viajar e com que frequência;3 - ADULTO;Masculino;B
+158;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;B
+158;Se o celular é pós pago ou pré pago;3 - ADULTO;Masculino;B
+158;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Masculino;B
+159;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Masculino;C
+159;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Masculino;C
+159;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Masculino;C
+159;Se possui animais de estimação;4 - MADURO;Masculino;C
+159;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Masculino;C
+159;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);4 - MADURO;Masculino;C
+159;Se possui smartphone?;4 - MADURO;Masculino;C
+159;Se costuma comprar parcelado ou à vista?;4 - MADURO;Masculino;C
+159;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Masculino;C
+159;Se possui filhos menores de 12 anos;4 - MADURO;Masculino;C
+159;Sobre a profissão que exerce;4 - MADURO;Masculino;C
+159;Se gosta de ir em shows;4 - MADURO;Masculino;C
+159;Se gosta de viajar e com que frequência;4 - MADURO;Masculino;C
+159;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Masculino;C
+159;Se o celular é pós pago ou pré pago;4 - MADURO;Masculino;C
+159;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Masculino;C
+159;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Masculino;C
+160;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);5 - MELHOR IDADE;Masculino;C
+160;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);5 - MELHOR IDADE;Masculino;C
+160;Se possui animais de estimação;5 - MELHOR IDADE;Masculino;C
+160;Informações sociais como sexo, idade, estado civil por exemplo;5 - MELHOR IDADE;Masculino;C
+160;Se possui smartphone?;5 - MELHOR IDADE;Masculino;C
+160;Se costuma comprar parcelado ou à vista?;5 - MELHOR IDADE;Masculino;C
+160;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);5 - MELHOR IDADE;Masculino;C
+160;Se possui casa própria ou se é alugada;5 - MELHOR IDADE;Masculino;C
+160;Se os filhos estudam em colégio particular;5 - MELHOR IDADE;Masculino;C
+160;Sobre a profissão que exerce;5 - MELHOR IDADE;Masculino;C
+160;Se gosta de ir em shows;5 - MELHOR IDADE;Masculino;C
+160;Se gosta de viajar e com que frequência;5 - MELHOR IDADE;Masculino;C
+160;Sobre a sua operadora de telefonia (Claro, Vivo e etc);5 - MELHOR IDADE;Masculino;C
+160;Se o celular é pós pago ou pré pago;5 - MELHOR IDADE;Masculino;C
+161;Características do veículo (marca, ano e etc);2 - JOVEM;Masculino;C
+161;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;C
+161;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;C
+161;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Masculino;C
+161;Se possui animais de estimação;2 - JOVEM;Masculino;C
+161;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;C
+161;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Masculino;C
+161;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Masculino;C
+161;Se possui smartphone?;2 - JOVEM;Masculino;C
+161;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Masculino;C
+161;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;C
+161;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;C
+161;Se possui filhos menores de 12 anos;2 - JOVEM;Masculino;C
+161;Se possui filhos menores de 18 anos;2 - JOVEM;Masculino;C
+161;Se possui casa própria ou se é alugada;2 - JOVEM;Masculino;C
+161;Se os filhos estudam em colégio particular;2 - JOVEM;Masculino;C
+161;Sobre a profissão que exerce;2 - JOVEM;Masculino;C
+161;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Masculino;C
+161;Se gosta de ir em shows;2 - JOVEM;Masculino;C
+161;Se tem plano de saúde;2 - JOVEM;Masculino;C
+161;Se possui seguro de vida, de imóvel ou de carro;2 - JOVEM;Masculino;C
+161;Se gosta de viajar e com que frequência;2 - JOVEM;Masculino;C
+161;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;C
+161;Se o celular é pós pago ou pré pago;2 - JOVEM;Masculino;C
+161;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Masculino;C
+161;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Masculino;C
+162;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;E
+162;Se possui animais de estimação;2 - JOVEM;Masculino;E
+162;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;E
+162;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Masculino;E
+162;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Masculino;E
+162;Se possui smartphone?;2 - JOVEM;Masculino;E
+162;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;E
+162;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;E
+162;Se possui filhos menores de 12 anos;2 - JOVEM;Masculino;E
+162;Se possui filhos menores de 18 anos;2 - JOVEM;Masculino;E
+162;Se possui casa própria ou se é alugada;2 - JOVEM;Masculino;E
+162;Sobre a profissão que exerce;2 - JOVEM;Masculino;E
+162;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Masculino;E
+162;Se gosta de ir em shows;2 - JOVEM;Masculino;E
+162;Se gosta de viajar e com que frequência;2 - JOVEM;Masculino;E
+162;Se o celular é pós pago ou pré pago;2 - JOVEM;Masculino;E
+162;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Masculino;E
+162;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Masculino;E
+163;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;C
+163;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;C
+163;Se possui animais de estimação;3 - ADULTO;Masculino;C
+163;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;C
+163;Se possui smartphone?;3 - ADULTO;Masculino;C
+163;Se possui filhos menores de 12 anos;3 - ADULTO;Masculino;C
+163;Se possui filhos menores de 18 anos;3 - ADULTO;Masculino;C
+163;Se possui casa própria ou se é alugada;3 - ADULTO;Masculino;C
+163;Sobre a profissão que exerce;3 - ADULTO;Masculino;C
+163;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Masculino;C
+163;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Masculino;C
+164;Características do veículo (marca, ano e etc);1 - ADOLESCENTE;Masculino;B
+164;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);1 - ADOLESCENTE;Masculino;B
+164;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Masculino;B
+164;Aniversário e outras datas festivas (Casamento por exemplo);1 - ADOLESCENTE;Masculino;B
+164;Se possui animais de estimação;1 - ADOLESCENTE;Masculino;B
+164;Informações sociais como sexo, idade, estado civil por exemplo;1 - ADOLESCENTE;Masculino;B
+164;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Masculino;B
+164;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);1 - ADOLESCENTE;Masculino;B
+164;Se possui smartphone?;1 - ADOLESCENTE;Masculino;B
+164;Se costuma comprar parcelado ou à vista?;1 - ADOLESCENTE;Masculino;B
+164;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);1 - ADOLESCENTE;Masculino;B
+164;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Masculino;B
+164;Se possui filhos menores de 12 anos;1 - ADOLESCENTE;Masculino;B
+164;Se possui filhos menores de 18 anos;1 - ADOLESCENTE;Masculino;B
+164;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Masculino;B
+164;Se os filhos estudam em colégio particular;1 - ADOLESCENTE;Masculino;B
+164;Sobre a profissão que exerce;1 - ADOLESCENTE;Masculino;B
+164;Se faz academia ou pratica esportes de modo geral;1 - ADOLESCENTE;Masculino;B
+164;Se gosta de ir em shows;1 - ADOLESCENTE;Masculino;B
+164;Se tem plano de saúde;1 - ADOLESCENTE;Masculino;B
+164;Se possui seguro de vida, de imóvel ou de carro;1 - ADOLESCENTE;Masculino;B
+164;Se gosta de viajar e com que frequência;1 - ADOLESCENTE;Masculino;B
+164;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Masculino;B
+164;Se o celular é pós pago ou pré pago;1 - ADOLESCENTE;Masculino;B
+164;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);1 - ADOLESCENTE;Masculino;B
+164;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);1 - ADOLESCENTE;Masculino;B
+165;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Masculino;B
+165;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Masculino;B
+165;Se possui smartphone?;4 - MADURO;Masculino;B
+165;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Masculino;B
+165;Se possui casa própria ou se é alugada;4 - MADURO;Masculino;B
+165;Sobre a profissão que exerce;4 - MADURO;Masculino;B
+165;Se gosta de viajar e com que frequência;4 - MADURO;Masculino;B
+166;Características do veículo (marca, ano e etc);2 - JOVEM;Masculino;B
+166;Se possui animais de estimação;2 - JOVEM;Masculino;B
+166;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;B
+166;Se possui smartphone?;2 - JOVEM;Masculino;B
+166;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;B
+166;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;B
+166;Se possui filhos menores de 12 anos;2 - JOVEM;Masculino;B
+166;Se possui filhos menores de 18 anos;2 - JOVEM;Masculino;B
+166;Se possui casa própria ou se é alugada;2 - JOVEM;Masculino;B
+166;Sobre a profissão que exerce;2 - JOVEM;Masculino;B
+166;Se gosta de viajar e com que frequência;2 - JOVEM;Masculino;B
+166;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;B
+166;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Masculino;B
+167;Características do veículo (marca, ano e etc);2 - JOVEM;Masculino;C
+167;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;C
+167;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;C
+167;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Masculino;C
+167;Se possui animais de estimação;2 - JOVEM;Masculino;C
+167;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;C
+167;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Masculino;C
+167;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Masculino;C
+167;Se possui smartphone?;2 - JOVEM;Masculino;C
+167;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Masculino;C
+167;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;C
+167;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;C
+167;Se possui filhos menores de 12 anos;2 - JOVEM;Masculino;C
+167;Se possui filhos menores de 18 anos;2 - JOVEM;Masculino;C
+167;Se possui casa própria ou se é alugada;2 - JOVEM;Masculino;C
+167;Se os filhos estudam em colégio particular;2 - JOVEM;Masculino;C
+167;Sobre a profissão que exerce;2 - JOVEM;Masculino;C
+167;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Masculino;C
+167;Se gosta de ir em shows;2 - JOVEM;Masculino;C
+167;Se tem plano de saúde;2 - JOVEM;Masculino;C
+167;Se possui seguro de vida, de imóvel ou de carro;2 - JOVEM;Masculino;C
+167;Se gosta de viajar e com que frequência;2 - JOVEM;Masculino;C
+167;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;C
+167;Se o celular é pós pago ou pré pago;2 - JOVEM;Masculino;C
+167;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Masculino;C
+167;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Masculino;C
+168;Características do veículo (marca, ano e etc);1 - ADOLESCENTE;Masculino;E
+168;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Masculino;E
+168;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;1 - ADOLESCENTE;Masculino;E
+168;Se possui smartphone?;1 - ADOLESCENTE;Masculino;E
+168;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);1 - ADOLESCENTE;Masculino;E
+168;Se possui casa própria ou se é alugada;1 - ADOLESCENTE;Masculino;E
+168;Se os filhos estudam em colégio particular;1 - ADOLESCENTE;Masculino;E
+168;Sobre a sua operadora de telefonia (Claro, Vivo e etc);1 - ADOLESCENTE;Masculino;E
+169;Eu não responderia à nenhuma destas questões;4 - MADURO;Masculino;D
+170;Características do veículo (marca, ano e etc);2 - JOVEM;Masculino;E
+171;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);4 - MADURO;Masculino;D
+171;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Masculino;D
+171;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Masculino;D
+171;Se possui filhos menores de 18 anos;4 - MADURO;Masculino;D
+171;Se possui casa própria ou se é alugada;4 - MADURO;Masculino;D
+171;Sobre a profissão que exerce;4 - MADURO;Masculino;D
+171;Se gosta de ir em shows;4 - MADURO;Masculino;D
+171;Se possui seguro de vida, de imóvel ou de carro;4 - MADURO;Masculino;D
+171;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Masculino;D
+171;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Masculino;D
+171;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Masculino;D
+172;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;C
+172;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Masculino;C
+172;Se possui smartphone?;2 - JOVEM;Masculino;C
+172;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Masculino;C
+172;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;C
+172;Se os filhos estudam em colégio particular;2 - JOVEM;Masculino;C
+173;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);1 - ADOLESCENTE;Masculino;E
+174;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);4 - MADURO;Masculino;D
+174;Aniversário e outras datas festivas (Casamento por exemplo);4 - MADURO;Masculino;D
+174;Se possui animais de estimação;4 - MADURO;Masculino;D
+174;Informações sociais como sexo, idade, estado civil por exemplo;4 - MADURO;Masculino;D
+174;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;4 - MADURO;Masculino;D
+174;Se possui smartphone?;4 - MADURO;Masculino;D
+174;Se costuma comprar parcelado ou à vista?;4 - MADURO;Masculino;D
+174;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);4 - MADURO;Masculino;D
+174;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);4 - MADURO;Masculino;D
+174;Se possui filhos menores de 12 anos;4 - MADURO;Masculino;D
+174;Se possui filhos menores de 18 anos;4 - MADURO;Masculino;D
+174;Se possui casa própria ou se é alugada;4 - MADURO;Masculino;D
+174;Se os filhos estudam em colégio particular;4 - MADURO;Masculino;D
+174;Sobre a profissão que exerce;4 - MADURO;Masculino;D
+174;Se faz academia ou pratica esportes de modo geral;4 - MADURO;Masculino;D
+174;Se tem plano de saúde;4 - MADURO;Masculino;D
+174;Se possui seguro de vida, de imóvel ou de carro;4 - MADURO;Masculino;D
+174;Se gosta de viajar e com que frequência;4 - MADURO;Masculino;D
+174;Sobre a sua operadora de telefonia (Claro, Vivo e etc);4 - MADURO;Masculino;D
+174;Se o celular é pós pago ou pré pago;4 - MADURO;Masculino;D
+174;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);4 - MADURO;Masculino;D
+174;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);4 - MADURO;Masculino;D
+174;Eu não responderia à nenhuma destas questões;4 - MADURO;Masculino;D
+175;Se possui smartphone?;3 - ADULTO;Masculino;B
+176;Características do veículo (marca, ano e etc);2 - JOVEM;Masculino;B
+176;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);2 - JOVEM;Masculino;B
+176;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;B
+176;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Masculino;B
+176;Se possui animais de estimação;2 - JOVEM;Masculino;B
+176;Informações sociais como sexo, idade, estado civil por exemplo;2 - JOVEM;Masculino;B
+176;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;2 - JOVEM;Masculino;B
+176;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Masculino;B
+176;Se possui smartphone?;2 - JOVEM;Masculino;B
+176;Se costuma comprar parcelado ou à vista?;2 - JOVEM;Masculino;B
+176;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);2 - JOVEM;Masculino;B
+176;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;B
+176;Se possui filhos menores de 12 anos;2 - JOVEM;Masculino;B
+176;Se possui filhos menores de 18 anos;2 - JOVEM;Masculino;B
+176;Se possui casa própria ou se é alugada;2 - JOVEM;Masculino;B
+176;Se os filhos estudam em colégio particular;2 - JOVEM;Masculino;B
+176;Sobre a profissão que exerce;2 - JOVEM;Masculino;B
+176;Se faz academia ou pratica esportes de modo geral;2 - JOVEM;Masculino;B
+176;Se gosta de ir em shows;2 - JOVEM;Masculino;B
+176;Se tem plano de saúde;2 - JOVEM;Masculino;B
+176;Se possui seguro de vida, de imóvel ou de carro;2 - JOVEM;Masculino;B
+176;Se gosta de viajar e com que frequência;2 - JOVEM;Masculino;B
+176;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;B
+176;Se o celular é pós pago ou pré pago;2 - JOVEM;Masculino;B
+176;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Masculino;B
+176;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);2 - JOVEM;Masculino;B
+177;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);5 - MELHOR IDADE;Masculino;D
+177;Aniversário e outras datas festivas (Casamento por exemplo);5 - MELHOR IDADE;Masculino;D
+177;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;5 - MELHOR IDADE;Masculino;D
+177;Se costuma comprar parcelado ou à vista?;5 - MELHOR IDADE;Masculino;D
+177;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);5 - MELHOR IDADE;Masculino;D
+177;Se possui casa própria ou se é alugada;5 - MELHOR IDADE;Masculino;D
+177;Se faz academia ou pratica esportes de modo geral;5 - MELHOR IDADE;Masculino;D
+177;Se possui seguro de vida, de imóvel ou de carro;5 - MELHOR IDADE;Masculino;D
+177;Se o celular é pós pago ou pré pago;5 - MELHOR IDADE;Masculino;D
+178;Se possui smartphone?;2 - JOVEM;Masculino;D
+178;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);2 - JOVEM;Masculino;D
+178;Se possui filhos menores de 12 anos;2 - JOVEM;Masculino;D
+178;Sobre a sua operadora de telefonia (Claro, Vivo e etc);2 - JOVEM;Masculino;D
+179;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;B
+179;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;B
+179;Se possui smartphone?;3 - ADULTO;Masculino;B
+179;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Masculino;B
+179;Se os filhos estudam em colégio particular;3 - ADULTO;Masculino;B
+179;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;B
+180;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);2 - JOVEM;Masculino;E
+181;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;E
+181;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Masculino;E
+181;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;E
+182;Aniversário e outras datas festivas (Casamento por exemplo);2 - JOVEM;Masculino;D
+182;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);2 - JOVEM;Masculino;D
+182;Se possui smartphone?;2 - JOVEM;Masculino;D
+182;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);2 - JOVEM;Masculino;D
+183;Características do veículo (marca, ano e etc);3 - ADULTO;Masculino;D
+183;Meio de pagamento preferido (dinheiro, cartão de débito, cartão de crédito e etc);3 - ADULTO;Masculino;D
+183;Lojas preferidas (Americanas, Carrefour, Amazon, Magazine Luiza e etc);3 - ADULTO;Masculino;D
+183;Aniversário e outras datas festivas (Casamento por exemplo);3 - ADULTO;Masculino;D
+183;Se possui animais de estimação;3 - ADULTO;Masculino;D
+183;Informações sociais como sexo, idade, estado civil por exemplo;3 - ADULTO;Masculino;D
+183;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;3 - ADULTO;Masculino;D
+183;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);3 - ADULTO;Masculino;D
+183;Se possui smartphone?;3 - ADULTO;Masculino;D
+183;Se costuma comprar parcelado ou à vista?;3 - ADULTO;Masculino;D
+183;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);3 - ADULTO;Masculino;D
+183;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);3 - ADULTO;Masculino;D
+183;Se possui filhos menores de 12 anos;3 - ADULTO;Masculino;D
+183;Se possui filhos menores de 18 anos;3 - ADULTO;Masculino;D
+183;Se possui casa própria ou se é alugada;3 - ADULTO;Masculino;D
+183;Se os filhos estudam em colégio particular;3 - ADULTO;Masculino;D
+183;Sobre a profissão que exerce;3 - ADULTO;Masculino;D
+183;Se faz academia ou pratica esportes de modo geral;3 - ADULTO;Masculino;D
+183;Se gosta de ir em shows;3 - ADULTO;Masculino;D
+183;Se tem plano de saúde;3 - ADULTO;Masculino;D
+183;Se possui seguro de vida, de imóvel ou de carro;3 - ADULTO;Masculino;D
+183;Se gosta de viajar e com que frequência;3 - ADULTO;Masculino;D
+183;Sobre a sua operadora de telefonia (Claro, Vivo e etc);3 - ADULTO;Masculino;D
+183;Se o celular é pós pago ou pré pago;3 - ADULTO;Masculino;D
+183;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);3 - ADULTO;Masculino;D
+183;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);3 - ADULTO;Masculino;D
+183;Eu não responderia à nenhuma destas questões;3 - ADULTO;Masculino;D
+184;Informações sociais como sexo, idade, estado civil por exemplo;5 - MELHOR IDADE;Masculino;C
+184;A frequência com que compra pela internet (semanal, quinzenal, mensal e etc);5 - MELHOR IDADE;Masculino;C
+184;Se possui smartphone?;5 - MELHOR IDADE;Masculino;C
+184;Se costuma comprar parcelado ou à vista?;5 - MELHOR IDADE;Masculino;C
+184;Sobre o meio de comunicação preferido? (Rádio, TV, Internet, Revistas e etc);5 - MELHOR IDADE;Masculino;C
+184;Sobre rede social preferida? (Facebook, Twitter, Instagram e etc);5 - MELHOR IDADE;Masculino;C
+184;Se gosta de ir em shows;5 - MELHOR IDADE;Masculino;C
+184;Se gosta de viajar e com que frequência;5 - MELHOR IDADE;Masculino;C
+184;Sobre a sua operadora de telefonia (Claro, Vivo e etc);5 - MELHOR IDADE;Masculino;C
+184;Se o celular é pós pago ou pré pago;5 - MELHOR IDADE;Masculino;C
+184;Sobre a operadora de TV a cabo (Claro, Vivo, NET e etc);5 - MELHOR IDADE;Masculino;C
+184;Se tem intenção de comprar algum produto específico (um IPhone por exemplo);5 - MELHOR IDADE;Masculino;C
+185;Características do veículo (marca, ano e etc);5 - MELHOR IDADE;Masculino;C
+185;Informações sociais como sexo, idade, estado civil por exemplo;5 - MELHOR IDADE;Masculino;C
+185;Se costuma comprar por impulso ou pesquisa bastante antes de comprar;5 - MELHOR IDADE;Masculino;C
+185;Se possui smartphone?;5 - MELHOR IDADE;Masculino;C
+185;Sobre a profissão que exerce;5 - MELHOR IDADE;Masculino;C
